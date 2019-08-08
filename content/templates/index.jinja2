@@ -120,13 +120,13 @@
                     </div>
                     <div class="col-4 col-8-small">
                       {% if project.full_size_image %}
-                      <p>(click to see full size)</p>
                       <a href="{{ project.full_size_image }}">
                       {% endif %}
                       <img class="image fit" src="{{ project.image }}"
                       alt="Image representing {{ project.title }}">
                       {% if project.full_size_image %}
                       </a>
+                      <p>(click to see full size)</p>
                       {% endif %}
                     </div>
                     <div class="col-8 col-12-small">

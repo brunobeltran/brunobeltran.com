@@ -1532,6 +1532,10 @@ input, select, textarea {
         margin-bottom: 3em;
     }
 
+        section > h3:first-child {
+            margin-block-end: 0.75em;
+        }
+
         section > :last-child, section:last-child, article > :last-child, article:last-child {
             margin-bottom: 0;
         }
