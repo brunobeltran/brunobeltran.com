@@ -1,6 +1,6 @@
 Beyond Meier-Kaplan: a statistical correction required when analyzing "lifetimes" in a finite observation window
 
-images/research-waiting-times.svg
+images/research-waiting-times.png
 
 https://multi-locus-analysis.readthedocs.io/en/latest/finite_window.html
 

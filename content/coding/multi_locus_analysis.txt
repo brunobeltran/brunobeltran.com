@@ -1,5 +1,5 @@
 (Multiple) Trajectory Analysis Toolkit
 
-./images/burgess-example-data.png
+./images/burgess-example-data.jpg
 
 http://multi-locus-analysis.rtfd.io

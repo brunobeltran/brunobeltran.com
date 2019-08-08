@@ -1,6 +1,6 @@
 A molecular heat engine for segregating and partitioning bacterial chromosomes
 
-images/research-parabs.png
+images/research-parabs.jpg
 
 https://elifesciences.org/articles/02758
 

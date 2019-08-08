@@ -1,6 +1,6 @@
 Nucleosome spacing heterogeneity drives chromatin elasticity
 
-images/research-nuc-chain-poster.png
+images/research-nuc-chain-poster.jpg
 
 https://www.biorxiv.org/content/10.1101/708966v1
 
