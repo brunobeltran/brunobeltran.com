@@ -93,8 +93,8 @@
 <!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
                     {% for project in coding_projects %}
                     <div class="col-4 col-6-medium col-12-small">
-                      <h4>{{ project.title }}</h4>
                       <a href="{{ project.url }}">
+                      <h4>{{ project.title }}</h4>
                         <img class="image fit" src="{{ project.image }}"
                         alt="Image representing {{ project.title }}.">
                       </a>
@@ -136,13 +136,17 @@
                       {% endif %}
                     </div>
                     <div class="col-4 col-8-small">
+                      <a
                       {% if project.full_size_image %}
-                      <a href="{{ project.full_size_image }}">
+                          href="{{ project.full_size_image }}"
+                      {% else %}
+                          href="{{ project.url }}"
                       {% endif %}
+                      >
                       <img class="image fit" src="{{ project.image }}"
                       alt="Image representing {{ project.title }}">
-                      {% if project.full_size_image %}
                       </a>
+                      {% if project.full_size_image %}
                       <p>(click to see full size)</p>
                       {% endif %}
                     </div>

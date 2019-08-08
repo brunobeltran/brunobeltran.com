@@ -2220,9 +2220,19 @@ input, select, textarea {
                 width: 3em;
                 padding-right: 0.25em;
             }
+
                 #main > .panel .nav:hover .arrow.left {
-                    padding-left: 0.025em;
+                    padding-left: 0.25em;
                 }
+
+            @media screen and (max-width: 736px) {
+
+                #main > .panel .nav .arrow {
+                    background: rgba(0, 0, 0, 0.25);
+                }
+
+            }
+
 
 /* Footer */
 

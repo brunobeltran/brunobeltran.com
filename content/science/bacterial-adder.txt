@@ -8,4 +8,5 @@ Analysis of high-throughput movies of <i>C. crescentus</i> and <i>E.
 coli</i> growth were used to show that bacterial populations control their
 average cell size not by timing how long the cells have lived, not by measuring
 a specific cell size that triggers division, but via a random process where
-each cell simply grows the same amount on average.
+each cell simply grows the same amount on average. The paper can be <a
+href="https://www.cell.com/cell/fulltext/S0092-8674(14)01499-8">found here</a>.
