@@ -10,138 +10,118 @@
     Free for personal and commercial use under the CCA 3.0 license.
 -->
 <html>
-    <head>
-        <title>Bruno Beltran | Personal Site</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <!-- Favicon links -->
-            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <!-- Configuration for saving to homescreen as bookmark -->
-            <link rel="manifest" href="/site.webmanifest">
-            <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-            <meta name="msapplication-TileColor" content="#da532c">
-            <meta name="theme-color" content="#ffffff">
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    </head>
-    <body class="is-preload">
+  <head>
+    <title>Bruno Beltran | Personal Site</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Favicon links -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- Configuration for saving to homescreen as bookmark -->
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
 
-        <!-- Wrapper-->
-            <div id="wrapper">
+    <!-- Wrapper-->
+      <div id="wrapper">
 
-                <!-- Nav -->
-                    <nav id="nav">
-                        <a href="#" class="icon solid fa-home"><span>Home</span></a>
-                        <a href="#code" class="icon solid fa-code"><span>Code</span></a>
-                        <a href="#science" class="icon solid fa-flask"><span>Science</span></a>
-                        <a href="#writing" class="icon solid fa-folder"><span>Writing</span></a>
-                        <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-                    </nav>
+        <!-- Nav -->
+          <nav id="nav">
+            <a href="#" class="icon solid fa-home"><span>Home</span></a>
+            <a href="#code" class="icon solid fa-code"><span>Code</span></a>
+            <a href="#science" class="icon solid fa-flask"><span>Science</span></a>
+            <a href="#writing" class="icon solid fa-folder"><span>Writing</span></a>
+            <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+          </nav>
 
-                <!-- Main -->
-                    <div id="main">
+        <!-- Main -->
+          <div id="main">
 
-                        <!-- Me -->
-                            <article id="home" class="panel intro">
-                                <header>
-                                    <h1>Bruno Beltran</h1>
-                                    <p>Mathematician, Biophysicist, Programmer</p>
-                                </header>
-                                <a href="#code" class="jumplink pic">
-                                    <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-                                    <img src="images/me.png" alt="" />
-                                </a>
-                            </article>
+            <!-- Me -->
+              <article id="home" class="panel intro">
+                <header>
+                  <h1>Bruno Beltran</h1>
+                  <p>Mathematician, Biophysicist, Programmer</p>
+                </header>
+                <a href="#code" class="jumplink pic">
+                  <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+                  <img src="images/me.png" alt="" />
+                </a>
+              </article>
 
-                        <!-- Code -->
-                            <article id="code" class="panel">
-                                <header>
-                                    <h2>Code</h2>
-                                </header>
-                                <p class="summary">
-I typically code for science or to alleviate annoyances in my workflow.
+            <!-- Code -->
+              <article id="code" class="panel">
+                <header>
+                  <h2>Code</h2>
+                  <p>
+Below are some of my more popular projects.
 <br />
-Below, I've highlighted projects I contribute to that might be broadly useful.
-<br />
-If you're looking for code from a publication, please see
+For access to unpublished code, please see
 <a href="https://github.com/brunobeltran"> my Github</a> or <a href="#contact">
 contact me</a>.
+</p>
 
-                                    <a href="#home" class="jumplink pic">
-                                        <span class="arrow left icon solid fa-chevron-left"><span>Go back to home page</span></span>
-                                    </a>
+                  <span class="nav">
+                    <a href="#home" class="jumplink pic">
+                      <span class="arrow left icon solid fa-chevron-left"><span>Go back to home page</span></span>
+                    </a>
+                    <a href="#science" class="jumplink pic">
+                      <span class="arrow right icon solid fa-chevron-right"><span>See my scientifit work</span></span>
+                    </a>
+                  </span>
+                </header>
+                <section>
+                  <div class="row">
+<!-- col-n(-size) makes a column that takes up n/12'ths of the row. -size can be -->
+<!-- -small, -medium, -large, -xlarge (or none for default). these correspond to -->
+<!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
+                    
+                    <div class="col-4 col-6-medium col-12-small">
+                      <h4>Python Tooling How-To and Examples</h4>
+                      <a href="http://python-tooling-example.rtfd.io
+">
+                        <img class="image fit" src="./images/pte-doc-screenshot.jpg"
+                        alt="Image representing Python Tooling How-To and Examples.">
+                      </a>
+                    </div>
+                    
+                    <div class="col-4 col-6-medium col-12-small">
+                      <h4>(Multiple) Trajectory Analysis Toolkit</h4>
+                      <a href="http://multi-locus-analysis.rtfd.io
+">
+                        <img class="image fit" src="./images/burgess-example-data.png"
+                        alt="Image representing (Multiple) Trajectory Analysis Toolkit.">
+                      </a>
+                    </div>
+                    
+                    <div class="col-4 col-6-medium col-12-small">
+                      <h4>Nucleosome Chain Simulation and Theory</h4>
+                      <a href="https://github.com/brunobeltran/nuc_chain
+">
+                        <img class="image fit" src="./images/nuc-chain-diagram.png"
+                        alt="Image representing Nucleosome Chain Simulation and Theory.">
+                      </a>
+                    </div>
+                    
+                  </div>
+                </section>
+              </article>
 
-                                    <a href="#science" class="jumplink pic">
-                                        <span class="arrow right icon solid fa-chevron-right"><span>See my scientifit work</span></span>
-                                    </a>
-                                </p>
-                                <section>
-                                    <div class="row">
-    <!-- These div's will be grouped into rows with three columns each. So write
-        them in triplets, like:
-            TITLE | <pic> | explanation
-        If the screen is smaller, these will reflow into rows with two columns
-        and finally all into a big column, so make sure the titles are like
-        <h3> or so, for when reflow happens. -->
-
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <p>Some testing on what happens </p>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <p>If I type here</p>
-                                            <br />
-                                            <p>For example</p>
-                                        </div>
-
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-                                        </div>
-
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-                                        </div>
-
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </section>
-                            </article>
-
-                        <!-- Science -->
-                            <article id="science" class="panel">
-                                <header>
-                                    <h2>Science</h2>
-                                </header>
-                                <p class="summary">
+            <!-- Science -->
+              <article id="science" class="panel">
+                <header>
+                  <h2>Science</h2>
+                  <p>
 My research has spanned several fields, from semigroup theory to bacterial
-cell size control, from statistics to modeling chromatin organization.
+cell size control, and from statistics to modeling chromatin organization.
 <br />
-Below, I have highlighted some recent projects in rougly reverse chronological
-order:
+Below, I highlight some recent projects:
 <!--TODO: make invisble section containing this text if necessary
 <br />
 Under Dr. Andrew Spakowitz, I developed coarse-grained models for chromatin
@@ -163,997 +143,931 @@ aneurysm formation.
 Under Dr. Frank Neubrander, I studied new bounds for rational Pade approximants
 to operator semigroups, with applications to Laplace inversion.
 -->
-                                    <a href="#code" class="jumplink pic">
-                                        <span class="arrow left icon solid fa-chevron-left"><span>See my work</span></span>
-                                    </a>
+</p>
 
-                                    <a href="#writing" class="jumplink pic">
-                                        <span class="arrow right icon solid fa-chevron-right"><span>Read some of my thoughts</span></span>
-                                    </a>
-                                </p>
+                  <span class="nav">
+                    <a href="#code" class="jumplink pic">
+                      <span class="arrow left icon solid fa-chevron-left"><span>See my work</span></span>
+                    </a>
+                    <a href="#writing" class="jumplink pic">
+                      <span class="arrow right icon solid fa-chevron-right"><span>Read some of my thoughts</span></span>
+                    </a>
+                  </span>
+                </header>
 
-                                <section>
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="https://www.biorxiv.org/content/10.1101/708966v1">
-                                            <h3>Nucleosome spacing heterogeneity
-                                                drives chromatin elasticity</h3>
-                                            </a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <p>(click to see full size)</p>
-                                            <a href="files/poster-nuc-chain.pdf" class="image fit"><img src="images/research-nuc-chain-poster.png" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <p>It is now understood that chromatin's structure in the nucleus is more like disorganized "beads-on-a-spring" than the "30nm fiber" historically seen by electron microscopy. We analytically compute the Greens function for a diffusion in SO(3) subordinated to a CTRW (i.e. a wormlike chain with random, rigid kinks). This analytical models demonstrates that heterogeneity in nucleosome spacing drives structural disorder, and that the bulk properties of chromatin can be modulated by repositioning nucleosomes. More details available in the <a href="https://www.biorxiv.org/content/10.1101/708966v1">paper.</a></p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <h3>Beyond Meier-Kaplan: a
-                                                statistical correction required
-                                                when analyzing "lifetimes" in a
-                                                finite observation window</h3>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <img src="images/research-waiting-times.svg" alt="">
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <p>Historically, the Meier-Kaplan correction has been used whenever an experiment measure "lifetimes" that are "right-censored" (meaning you stop observing before the event you're waiting for happens). However, not all right-censored waiting times are correctly treated by the Meier-Kaplan approach. We have developed a generalized framework for easily classifying right-censored waiting times, and a simple, fast algorithm for generating correct survival curves (or histograms) of real measured lifetimes.</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <h3>Transcription-induced DNA
-                                                supercoiling mediates
-                                                long-distance collaborative and
-                                                antagonistic RNA polymerase dynamics</h3>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <h3>Evidence for purely passive
-                                                homolog search in yeast
-                                                prophase: "spooky action at a
-                                                distance" in biology</h3>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <h3>Thermally-mediated DNA loops
-                                                drive epigenetic mark
-                                                spreading</h3>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <h3>Epigenetic sequence drives
-                                                compartmental chromatin
-                                                segregation via phase
-                                                separation</h3>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <h3>A molecular heat engine
-                                                for segregating and partitioning
-                                                bacterial chromosomes</h3>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="https://elifesciences.org/articles/02758" class="image fit"><img src="images/research-parabs.png" alt=""></a>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <p>A coarse-grained model of the ParABS plasmid partitioning system shows that <em>Caulobacter crescentus</em> can use it as a heat engine to drive segregation of the new copy of its chromosome before division. The general "burned-bridge" type heat-engine that we describe has <a href="https://www.pnas.org/content/pnas/113/46/E7268.full.pdf">now been shown</a> to also drive the canonical plasmid-partitioning behavior of ParABS in <em>E. coli</em>.</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <h3>A "constant extension"/"adder"
-                                                model for bacterial cell size
-                                                control</h3>
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                        <div class="col-4 col-6-medium col-12-small">
-                                        </div>
-                                    </div>
-                                </section>
-                            </article>
+                <section>
+                  
+                  <hr />
+                  <div class="row">
+<!-- col-n(-size) makes a column that takes up n/12'ths of the row. -size can be -->
+<!-- -small, -medium, -large, -xlarge (or none for default). these correspond to -->
+<!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
+                    <div class="col-12">
+                      
+                      <a href="https://www.biorxiv.org/content/10.1101/708966v1">
+                      
+                      <h3>Nucleosome spacing heterogeneity drives chromatin elasticity</h3>
+                      
+                      </a>
+                      
+                    </div>
+                    <div class="col-4 col-8-small">
+                      
+                      <p>(click to see full size)</p>
+                      <a href="files/poster-nuc-chain.pdf
+">
+                      
+                      <img class="image fit" src="images/research-nuc-chain-poster.png"
+                      alt="Image representing Nucleosome spacing heterogeneity drives chromatin elasticity">
+                      
+                      </a>
+                      
+                    </div>
+                    <div class="col-8 col-12-small">
+                      <p>It is now understood that chromatin's structure in the nucleus is more like disorganized "beads-on-a-spring" than the "30nm fiber" historically seen by electron microscopy. We analytically compute the Greens function for a diffusion in SO(3) subordinated to a CTRW (i.e. a wormlike chain with random, rigid kinks). This analytical models demonstrates that heterogeneity in nucleosome spacing drives structural disorder, and that the bulk properties of chromatin can be modulated by repositioning nucleosomes. More details available in the <a href="https://www.biorxiv.org/content/10.1101/708966v1">paper.</a></p>
 
-                        <!-- Writing -->
-                            <article id="writing" class="panel">
-                                <header>
-                                    <h2>Musings</h2>
-                                </header>
-                                <p class="summary">
-                                    Almost everything that I would normally have
-                                    made into a blog post is either a coding tutorial
-                                    (see my <a href="code"> code </a> page) or
-                                    has now become a published paper (see my
-                                    <a href="#science">Science</a> page).
-                                    <br />
-                                    Read on at your own risk, this page is
-                                    unlikely to contain anything of substance.
+                    </div>
+                  </div>
+                  
+                  <hr />
+                  <div class="row">
+<!-- col-n(-size) makes a column that takes up n/12'ths of the row. -size can be -->
+<!-- -small, -medium, -large, -xlarge (or none for default). these correspond to -->
+<!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
+                    <div class="col-12">
+                      
+                      <a href="https://multi-locus-analysis.readthedocs.io/en/latest/finite_window.html">
+                      
+                      <h3>Beyond Meier-Kaplan: a statistical correction required when analyzing "lifetimes" in a finite observation window</h3>
+                      
+                      </a>
+                      
+                    </div>
+                    <div class="col-4 col-8-small">
+                      
+                      <img class="image fit" src="images/research-waiting-times.svg"
+                      alt="Image representing Beyond Meier-Kaplan: a statistical correction required when analyzing "lifetimes" in a finite observation window">
+                      
+                    </div>
+                    <div class="col-8 col-12-small">
+                      <p>Historically, the Meier-Kaplan correction has been used whenever an experiment measure "lifetimes" that are "right-censored" (meaning you stop observing before the event you're waiting for happens). However, not all right-censored waiting times are correctly treated by the Meier-Kaplan approach. We have developed a generalized framework for easily classifying right-censored waiting times, and a simple, fast algorithm for generating correct survival curves (or histograms) of real measured lifetimes.</p>
 
-                                    <a href="#science" class="jumplink pic">
-                                        <span class="arrow left icon solid fa-chevron-left"><span>See my scientifit work</span></span>
+                    </div>
+                  </div>
+                  
+                  <hr />
+                  <div class="row">
+<!-- col-n(-size) makes a column that takes up n/12'ths of the row. -size can be -->
+<!-- -small, -medium, -large, -xlarge (or none for default). these correspond to -->
+<!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
+                    <div class="col-12">
+                      
+                      <a href="https://elifesciences.org/articles/02758">
+                      
+                      <h3>A molecular heat engine for segregating and partitioning bacterial chromosomes</h3>
+                      
+                      </a>
+                      
+                    </div>
+                    <div class="col-4 col-8-small">
+                      
+                      <img class="image fit" src="images/research-parabs.png"
+                      alt="Image representing A molecular heat engine for segregating and partitioning bacterial chromosomes">
+                      
+                    </div>
+                    <div class="col-8 col-12-small">
+                      <p>A coarse-grained model of the ParABS plasmid partitioning system shows that <em>Caulobacter crescentus</em> can use it as a heat engine to drive segregation of the new copy of its chromosome before division. The general "burned-bridge" type heat-engine that we describe has <a href="https://www.pnas.org/content/pnas/113/46/E7268.full.pdf">now been shown</a> to also drive the canonical plasmid-partitioning behavior of ParABS in <em>E. coli</em>.</p>
 
-                                    <a href="#contact" class="jumplink pic">
-                                        <span class="arrow right icon solid fa-chevron-right"><span>Go to my contact information</span></span>
-                                    </a>
-                                </p>
+                    </div>
+                  </div>
+                  
+                  <hr />
+                  <div class="row">
+<!-- col-n(-size) makes a column that takes up n/12'ths of the row. -size can be -->
+<!-- -small, -medium, -large, -xlarge (or none for default). these correspond to -->
+<!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
+                    <div class="col-12">
+                      
+                      <a href="https://www.cell.com/cell/fulltext/S0092-8674(14)01499-8">
+                      
+                      <h3>A "constant extension"/"adder" model for bacterial cell size control</h3>
+                      
+                      </a>
+                      
+                    </div>
+                    <div class="col-4 col-8-small">
+                      
+                      <img class="image fit" src="./images/cell-constant-extenstion-ga.jpg"
+                      alt="Image representing A "constant extension"/"adder" model for bacterial cell size control">
+                      
+                    </div>
+                    <div class="col-8 col-12-small">
+                      <p>Analysis of high-throughput movies of <i>C. crescentus</i> and <i>E.
+coli</i> growth were used to show that bacterial populations control their
+average cell size not by timing how long the cells have lived, not by measuring
+a specific cell size that triggers division, but via a random process where
+each cell simply grows the same amount on average.</p>
 
-                                <hr />
+                    </div>
+                  </div>
+                  
+                </section>
+              </article>
 
-                                <section>
-                                    <h3>Why do physicists and biologists talk
-                                        past each other?</h3>
-                                    <p>Every researcher that interfaces with the
-                                    work that might be classified as
-                                    "biophysics" is likely to have a strong
-                                    opinion about this question. But I think
-                                    that there's a simple-to-express distinction
-                                    between the <em>goals</em> of biology and
-                                    the <em>goals</em> of physics that easily
-                                    explains some 99% of the examples I've run
-                                    into of physicists and biologists
-                                    misunderstanding (or just disagreeing with)
-                                    each other.</p>
-                                    <p><strong>Physicists care about
-                                        universality. Biologists care about
-                                        actuality.</strong></p>
-                                    <p>Both physicists coming into biology and
-                                    biologists starting to apply physical
-                                    principles to their research would be
-                                    well-served by trying to understand the
-                                    perspective of the other. In particular,
-                                    this rant is written largely at ph
-                                    <p>Historically, physicists have had a
-                                    reasonably clear (if difficult to define)
-                                    goal in mind: to characterize the extremely
-                                    complex world around us into the simplest
-                                    set of universal rules that can be used to
-                                    plausibly explain everything that we
-                                    observe. Biologists, on the other hand, have
-                                    had a very different goal: to figure out
-                                    exactly how it is that life works, whether
-                                    or not such a description admits a
-                                    low-complexity representation.</p>
-                                    <p>Centuries of working towards their unique
-                                    goals have led biologists and physicists to
-                                    develop a deep intuitions as fields for what
-                                    types of scientific questions tend to be
-                                    fruitful, and which tend to turn up nothing
-                                    of interest (or just be wild goose chases).
-                                    However, the differences between their
-                                    <!-- <p><strong>Physics is the science of -->
-                                    <!--     uncovering universal properties of -->
-                                    <!--     the world around us.</strong></p> -->
-                                    <!-- <p>Before you take offense to this definition, -->
-                                    <!-- let me give you a less contentious one to -->
-                                    <!-- help me contrast it with.</p> -->
-                                    <!-- <p><strong>Biology is the science of -->
-                                    <!--     characterizing exactly how life works.</strong></p> -->
-                                    <!-- <p>For the price of being totally -->
-                                    <!-- uncontentious, that statement is of course -->
-                                    <!-- totally devoid of content, but here's what I -->
-                                    <!-- mean by the distinction: -->
-                                    <p>A physicist will think a problem/system is
-                                    interesting <em>if and only if</em> the
-                                    problem admits a solution/description that
-                                    can be broadly generalized to a larger
-                                    system of problems. Physicists will often
-                                    speak of a problem or solution have a kind
-                                    of "elegance". After working with more and
-                                    more physicists, I think that I've basically
-                                    found that what is meant by elegance is just
-                                    what mathematicians might call
-                                    "universality", or the discovery that a
-                                    complex system can be simply described by a
-                                    simple set of rules. </p>
-                                    <p>On the other hand, a biologist
+            <!-- Writing -->
+              <article id="writing" class="panel">
+                <header>
+                  <h2>Musings</h2>
+                  <p>
+    Almost everything that I would normally have made into a blog post is either
+    a coding tutorial (see my <a href="code"> code </a> page) or has now become
+    a published paper (see my <a href="#science">Science</a> page).
+    <br />
+    However, if you are interested in the philosophy of science, perhaps you'll
+    find something worthwhile here...
+</p>
 
 
-                                </section>
+                  <span class="nav">
+                    <a href="#science" class="jumplink pic">
+                      <span class="arrow left icon solid fa-chevron-left"><span>See my scientifit work</span></span>
+                    <a href="#contact" class="jumplink pic">
+                      <span class="arrow right icon solid fa-chevron-right"><span>Go to my contact information</span></span>
+                    </a>
+                  </span>
+                </header>
 
-                                <!-- <hr /> -->
-                                <!-- <section> -->
-                                <!--     <h3>What makes science...science?</h3> -->
-                                <!--     <p> -->
-                                <!--     TODO: write about why the connection between -->
-                                <!--     the fact that america has the most serial -->
-                                <!--     killers and mass murderers is so important. -->
-                                <!--     are we trying to stop serial killers by -->
-                                <!--     going after mental health? no. -->
-                                <!--     </p> -->
-                                <!-- </section> -->
+                
+                <hr />
 
-                                <hr />
+                <section>
+                  <h3>Why do physicists and biologists talk past each other?</h3>
 
-                                <section>
-                                    <h3>What makes science...science?</h3>
-                                    <p>First, let's go through a few common ways
-                                    people might answer this question.
-                                    <h4>Defining science by process</h4>
-                                    <p>
-                                    The process of science is often summarized by
-                                    a simple loop:
-                                    </p>
-                                    <ol>
-                                        <li>Identify some property of the world
-                                            around us that seems to be
-                                            universally true.</li>
-                                        <li>Identify the logical consequences of
-                                            that property.</li>
-                                        <li>Test for the logical consequences,
-                                            and keep poking around until you're
-                                            either unable to falsify your theory
-                                            given your operating constraints or
-                                            until you've found some
-                                            inconsistency.</li>
-                                        <li>When an inconsistency is found,
-                                            return to step 1 and identify the
-                                            new universal property.</li>
-                                    </ol>
-                                    <!-- <p> -->
-                                    <!-- Of course, science often engages in some -->
-                                    <!-- seriously meta games. It might be that -->
-                                    <!-- instead of observing first some symmetry of -->
-                                    <!-- the universe, we instead first observe a -->
-                                    <!-- bunch of particles in our collider that -->
-                                    <!-- we know mathematically would emerge in the -->
-                                    <!-- case when there is some underlying symmetry -->
-                                    <!-- (which may actually predict many other -->
-                                    <!-- particles that we have not seen before). -->
-                                    <!-- This doesn't really follow the 4-step plan I -->
-                                    <!-- lay out above (even though it is obviously -->
-                                    <!-- an example of extremely good science). -->
-                                    <!-- However, it does follow the gestalt of the -->
-                                    <!-- above, in that it involves identifying a -->
-                                    <!-- specific set  of mathematical (i.e. -->
-                                    <!-- axiomatizeable) "assumptions" whose logical -->
-                                    <!-- consequences can be directly tested. -->
-                                    <!-- </p> -->
-                                    <h4>Defining science as "model-driven"</h4>
-                                    <p>
-                                    The cornerstone of the process described
-                                    above is what I'd call the "successful,
-                                    falsifiable model".
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            By <em>"model"</em>, I mean a
-                                            mathematical description of some
-                                            process that generates observations
-                                            of the world around us. (Where
-                                            mathematical simply means it is
-                                            unambiguous, and has unambiguous
-                                            logical consequences).
-                                        </li>
-                                        <li>
-                                            By <em>"successful"</em>, I mean
-                                            that we can be reasonably confident
-                                            that the model will remain accurate
-                                            upon continued testing.
-                                        </li>
-                                        <li>
-                                            Finally, by <em>"falsifiable"</em>,
-                                            I mean that every "assumption" of
-                                            the model can in principle be tested.
-                                        </li>
-                                    </ul>
-                                    <p>
-                                    You might notice in particular that I've
-                                    punted hundreds of years of philosophy of
-                                    science into the catch-all phrase:
-                                    "reasonably confident".  This is not because
-                                    I don't understand the complexity involved
-                                    in trying to specify exactly what are the
-                                    properties that should make one "reasonably
-                                    confident" that a model will remain accurate
-                                    upon adding further measurements. Rather, it
-                                    is exactly because I admit that I personally
-                                    believe that "good" science (as currently
-                                    practiced) is basically just a huge grab bag
-                                    of heuristics for what kinds of models are
-                                    useful (e.g.  those that have stood the test
-                                    of time and repeated verification, those
-                                    that are as simple as possible, those that
-                                    rely on the fewest unmeasured parameters,
-                                    etc). And while I think these are important
-                                    for doing "good" science, in practice, they
-                                    are ignored by working scientists as needed
-                                    to accomplish their particular goals.
-                                    </p>
-                                    <p>
-                                    In particular, notice that I don't include
-                                    any notion of the "simplicity" of the model
-                                    in my definition of science. That is in fact
-                                    because I actively do not think that science
-                                    is necessarily about the pursuit of the
-                                    "simplest possible" model of a system. In
-                                    fact, I tend to actually <a
-                                    href="#blog.physics-vs-biology">define
-                                    physics</a>
-                                    as the subset of science whose sole purpose
-                                    is to generate the most simple model of a
-                                    system possible given existing data.
-                                    </p>
-                                    <h4>Defining science as leveraging logic to
-                                        facilitate the search for truth</h4>
-                                    <p>Science turns out to be a word which is
-                                    used to describe quite a diverse range of
-                                    activities that are undertaken in the search
-                                    of knowledge.</p>
-                                    <ul>
-                                        <li>(exploratory experimentation and
-                                            hypothesis development)
-                                            Broadly, searching for underlying
-                                            universal properties of the world
-                                            around us by looking for patterns in
-                                            observations.</li>
-                                        <li>(theoretical development) Developing the logical consequences
-                                            of existing ("known") patterns in
-                                            the world around us.</li>
-                                        <li>(experimental verification and
-                                            falsification) "known" consequences
-                                            of "known" patterns in the world
-                                            around us to look for discrepancies,
-                                            since these will stem (in a real
-                                            model) from incorrect assumptions
-                                            that should be revised.</li>
-                                    </ul>
-                                    <!-- <p>By "universal properties" above, I don't -->
-                                    <!-- necessarily mean "fundamental" or -->
-                                    <!-- "simplest", just "reproducible". Even -->
-                                    <!-- without a complete understanding of -->
-                                    <!-- epigenetics, we were able to map out how -->
-                                    <!-- gene expression works for some easy -->
-                                    <!-- bacterial genes early on (e.g. the -->
-                                    <!-- <i>lac</i> operon). The principle that a -->
-                                    <!-- transcription factor needs to be chemically -->
-                                    <!-- modified by the environment and bind to the -->
-                                    <!-- promoter was not a "universal" or -->
-                                    <!-- "fundamental" description of how gene -->
-                                    <!-- expression works, but it was the best -->
-                                    <!-- description that we had (and agreed with all -->
-                                    <!-- data available at the level of -->
-                                    <!-- coarse-graining that was required by models -->
-                                    <!-- of the time).</p> -->
-                                    <p>
-                                    However, if we simply go around calling
-                                    everything that seems to fit in this
-                                    extremely broad framework by the name
-                                    "science", we will find that it does not
-                                    distinguish very well between well-respected
-                                    theories and total quack science.
-                                    </p>
-                                    <h4>Things that aren't science</h4>
-                                    <h5>#1: Unverifiable models</h5>
-                                    <p>
-                                    Models that can only be distinguished from
-                                    other models via predictions that can not be
-                                    verified in any way are not scientific.
-                                    </p>
-                                    <p>
-                                    This most famously includes string theory,
-                                    but also encompasses certain types of model
-                                    selection that are normally relegated to
-                                    Occam's razor as a special case. For
-                                    example, when comparing between a model of
-                                    gravity and a model where gravity has
-                                    identically the same properties but is
-                                    generated by an unmeasurable space fairy
-                                    that orbits outside the milky way, the
-                                    latter can be dismissed out of hand as being
-                                    unscientific. If we replace the space fairy
-                                    with a massive obelist in low-earth orbit,
-                                    now the latter theory is at least scientific
-                                    (it is testable) although it is true that
-                                    heuristically, it makes sense to dismiss it
-                                    out of hand (this is Occam's razor), the
-                                    reasons we dismiss it are totally different,
-                                    even if they seem similar.
-                                    </p>
-                                    <h5>#2: statistics</h5>
-                                    <p>
-                                    More importantly than what exact choices I
-                                    made in my definition of "science" are the
-                                    things that I explicitly disinclude from
-                                    "science" using my definition above. For
-                                    example, most of what the statistics
-                                    community would call a "model" (note I'm
-                                    explicitly not talking about stochastic
-                                    versions of physics models, which are also
-                                    often called "statistical") would not be
-                                    included.
-                                    </p>
-                                    <p>
-                                    When is fitting, let's say, a
-                                    linear model, considered science? It's
-                                    easiest to see by example. When measuring
-                                    the velocity of something falling on the
-                                    moon, it seems to make scientific sense to
-                                    fit this (possibly noisy) data to a linear
-                                    model. This is because we have hundreds of
-                                    years of data suggesting that an
-                                    approximately constant force of gravity will
-                                    be the only real contributor to the motion,
-                                    and so we expect that if we measured
-                                    everything more accurately (decreasing the
-                                    noise) that the linear model would continue
-                                    to describe the data well.
-                                    </p>
-                                    <p>
-                                    On the other hand, fitting estimates for the
-                                    average height of all humans in each year
-                                    with a linear function seems less
-                                    "scientific".  Even if the data looks
-                                    basically like a noise linear process, we do
-                                    not expect at all that if we measured more
-                                    and more people (or more and more years in
-                                    the past/future) that the linear model would
-                                    continue to perform well. For a model to be
-                                    a "scientific model", we must <em>reasonably
-                                        expect</em>that the model will continue
-                                    to work as we collect more measurements.
-                                    </p>
-                                    <p>Don't get me wrong, statistics is
-                                    incredibly important to the scientific
-                                    process.
-                                    <!-- Fits from statistical models -->
-                                    <!-- can even be used as inputs (assumptions) for -->
-                                    <!-- more scientific models (if we simply show -->
-                                    <!-- that the consequences of the scientific -->
-                                    <!-- model we care about don't depend strongly on -->
-                                    <!-- the exactly output of the statistical -->
-                                    <!-- model). -->
-                                    But a the slope of linear model fit to a
-                                    cloud of data should not be called a
-                                    "scientific" finding. It is (merely) a
-                                    statistical finding.</p>
-                                    <h4>Things that are science</h4>
-                                    <p>
-                                    Many theoreticians would probably take
-                                    offense to my requirement that scientific
-                                    models need to be expected to be able to
-                                    reproduce experimental data arbitrarily
-                                    well. After all, many models (my entire
-                                    scientific career included) are considered
-                                    worthwhile not because they can reproduce
-                                    experimental measurements. For example,
-                                    a very popular approach widely known as
-                                    "bottom-up" modeling totally eschews
-                                    attempting to match any data at all.
-                                    Instead, bottom-up modeling takes small
-                                    subset of only the most well-accepted facts
-                                    about a complex system and tries to derive
-                                    the consequences of only that subset of
-                                    properties. By doing so, the modeling
-                                    process is made infinitely more tractable,
-                                    and the individual effects from the
-                                    different parts of the system can often be
-                                    teased apart much more easily. However, this
-                                    of course comes at the cost of being able to
-                                    reproduce data.
-                                    </p>
+<p>Every researcher that interfaces with the
+work that might be classified as
+"biophysics" is likely to have a strong
+opinion about this question. But I think
+that there's a simple-to-express distinction
+between the <em>goals</em> of biology and
+the <em>goals</em> of physics that easily
+explains some 99% of the examples I've run
+into of physicists and biologists
+misunderstanding (or just disagreeing with)
+each other.</p>
 
+<p><strong>Physicists care about
+    universality. Biologists care about
+    actuality.</strong></p>
 
-                                    <h4>Assumption complexity: a useful
-                                        classifier for "types" of science</h4>
-                                    <p>
-                                    I find that one of the most useful metrics
-                                    by which to classify scientific models is
-                                    by how detailed the assumptions need to be
-                                    in order to produce the model's logical
-                                    conclusions (given our current understanding
-                                    of mathematics).
-                                    </p>
-                                    <p>
-                                    On one extreme, you'll tend to find
-                                    models that come out of very applied fields
-                                    such as biology or materials science. Say
-                                    you are interested in the science behind how
-                                    a microbe works. It's entirely possible that
-                                    in order to develop a model that faithfully
-                                    reproduces every facet of such a complicated
-                                    entity, you need to basically plug in so
-                                    many details (assumptions) about the microbe
-                                    in question that you begin to ask yourself
-                                    if you're actually learning anything or just
-                                    carefully reverse-engineering. These models
-                                    gain their utility from being able to
-                                    explain specific systems that affect humans
-                                    here and now.
-                                    </p>
-                                    <p>
-                                    On the other extreme, you'll tend to find
-                                    models from more "theoretical" fields such
-                                    as physics or computer science.
-                                    Practitioners of these fields will tend to
-                                    specifically be interested in what logical
-                                    conclusions can be drawn from small sets of
-                                    assumptions. For example, a physicist might
-                                    ask what assumptions can be drawn about the
-                                    electromagnetic force assuming a particular
-                                    type of symmetry (locally U(1)) that it has
-                                    been observed to obey. These models will
-                                    contain a very small set of assumptions and
-                                    as provide utility by being broadly
-                                    applicable to a wide range of problems.
-                                    </p>
-                                    <p>
-                                    Both types (and everything in between) are
-                                    useful. Both types are science.
-                                    </p>
-                                    <p>Are there things which are "not"
-                                    science? Definitely. </>
+<p>Both physicists coming into biology and
+biologists starting to apply physical
+principles to their research would be
+well-served by trying to understand the
+perspective of the other. In particular,
+this rant is written largely at ph</p>
 
-                                    <!-- first version -->
+<p>Historically, physicists have had a
+reasonably clear (if difficult to define)
+goal in mind: to characterize the extremely
+complex world around us into the simplest
+set of universal rules that can be used to
+plausibly explain everything that we
+observe. Biologists, on the other hand, have
+had a very different goal: to figure out
+exactly how it is that life works, whether
+or not such a description admits a
+low-complexity representation.</p>
 
-                                    <p>Any attempts to build a falsifiable model
-                                    that describes observations about the world
-                                    around us is science, as is the testing of
-                                    such a model, as is the exploration of
-                                    potentially unexplored types of measurements
-                                    about the world with the purpose of building
-                                    a model. At least that's a tempting thing to
-                                    say, and maybe it summarizes the most
-                                    well-accepted bits of the "philosophy of
-                                    science", from Bacon, to Popper to
-                                    Hempel.</p>
-                                    <!-- <p>However, I often see this definition -->
-                                    <!-- being used as a sort of checklist, by people -->
-                                    <!-- that want to do "science", but somehow end -->
-                                    <!-- up doing bad stats on ugly data.</p> -->
-                                    <p>
-                                    <strong>BUT</strong>, I think that almost
-                                    any modern scientist, if forced to, could do
-                                    a much better job at describing what is
-                                    meant at the turn of the 21st century by
-                                    "good" science than this simple description.
-                                    <!-- It's easy to do better than centuries of -->
-                                    <!-- brilliant philosophers at describing -->
-                                    <!-- something that you have centuries more -->
-                                    <!-- examples of, but we're going to do it -->
-                                    <!-- anyway. -->
-                                    </p>
-                                    <p>
-                                    First, what is so bad about the previous
-                                    definition? When used as a checklist, it
-                                    allows one to call a lot of things science
-                                    that a working scientist would take great
-                                    offense to. For example, say I measure a
-                                    bunch of people's heights over the last few
-                                    decades. Now I fit a line to their heights
-                                    as a function of time. I claim that people's
-                                    heights are growing at an average rate given
-                                    by the parameter of my model fit. The number
-                                    of ways in which this is "hardly" science
-                                    are almost too numerous for any working
-                                    scientist to point out, but it seems to
-                                    check all of the boxes! There's a model
-                                    (albeit an unmotivated, oversimplied,
-                                    seemingly arbitrary one). It's falsifiable
-                                    (more measurements, or maybe measurements in
-                                    the future or past could show that this
-                                    trend no longer holds or never held at all).
-                                    My measurements might have been the first of
-                                    their kind, I might have predicted height
-                                    would increase on average over time <i>a
-                                    priori</i>, and still no scientist worth
-                                    their salt would call what I did science.
-                                    Maybe if confronted with a definition of
-                                    science like the one above, they would cave
-                                    and just mutter that it's not "good" science
-                                    in any case. Many of the less policitally
-                                    correct...physicists...in the room would
-                                    even be likely to mutter that "this might
-                                    pass for real work in the social sciences,
-                                    but not in [my] department."
-                                    </p>
-                                    <p>
-                                    Now I don't agree with my colleagues that
-                                    think that social sciences are "lesser" than
-                                    the "hard" sciences, but the things they are
-                                    recoiling at stem from a shared
-                                    understanding of what types of science are
-                                    useful, what types of scientific questions
-                                    tend to be fruitful, and what types of
-                                    approaches tend to most often lead to bogus
-                                    results. The above example really does go
-                                    against dozens of unspoken "rules" about
-                                    what is allowed to be called science within
-                                    the community. They recoil because such a
-                                    seemingly useless piece of work flows
-                                    directly against the zeitgeist of early
-                                    21st century science, and this zeitgeist
-                                    exists for a reason.
-                                    </p>
-                                    <p>Well, the obvious follow-up question is:
-                                    can we amend our previous definition of
-                                    science to more completely contain this
-                                    shared understanding of what constitutes
-                                    "real" science, as opposed to things that
-                                    simply masquerade as scientific? Of course,
-                                    as someone whose graduate "schooling" was
-                                    largely <a href="#blog.physics-vs-biology">
-                                    guided by physicists</a>, it is my solemn
-                                    duty to believe that not only can I
-                                    summarize this complex set of rules, but
-                                    that I can do so in a manner that distills
-                                    them into a much simpler set of underlying
-                                    principles that should drive how everybody
-                                    does science.</p>
-                                    <p>Jokes aside, dozens of much smarter
-                                    people than me have tried this same exercise
-                                    over the centuries since humans have left
-                                    behind writings about science. However, like
-                                    a middle schooler solving algebraic
-                                    equations that only specialized
-                                    mathematicians would have been acquainted
-                                    with in ancient times, I have the advantage
-                                    of modernity: everything is much easier in
-                                    hindsight.
-                                    </p>
-                                    <p>
-                                    In order to better define what science is,
-                                    we're going to sketch out a model for how an
-                                    abstract (set of) agent(s) might go about
-                                    discovering things about the world around
-                                    themselves. I don't intend to provide a
-                                    rigorous definition or exmaple of such a
-                                    model, but merely to point out the types of
-                                    strategies that might emerge, so that I can
-                                    more precisely specify which of these I
-                                    would call "science".
-                                    </p>
-                                    <p>
-                                    So if you want a model describing a set of
-                                    agents trying to discover the universe
-                                    around them, you need to specify something
-                                    about the universe that you're talking
-                                    about. And if you want to say things about
-                                    how universally applicable their strategy
-                                    is, you need to in fact describe the sets of
-                                    universes over which you want to gauge their
-                                    potential for success.
-                                    </p>
-                                    <p>
-                                    This may seem like a silly proposition, but
-                                    I'd argue that we can quickly list off
-                                    various properties of universes that are
-                                    necessary for the question we're asking to
-                                    even make sense in the first place.
-                                    </p>
-                                    <ul>
-                                        <li>The universe better be complex
-                                            enough that it can support (as in it
-                                            can contain) agents that can ask
-                                            questions about the universe.</li>
-                                        <li>On the time scales on which these
-                                            agents ask their question, the
-                                            universe better have at least
-                                            reasonably constant underlying
-                                            rules. </li>
-                                    </ul>
-                                    <p>
-                                    The complexity lower-bound means that the
-                                    universes we're talking about have to at
-                                    least admit turing-complete machines.
-                                    The other property is mostly just to
-                                    simplify the questions that we're asking.
-                                    And while there are
-                                    <a href="https://en.wikipedia.org/wiki/Time-variation_of_fundamental_constants">
-                                        valid reasons to ask if the laws of
-                                        physics as-currently-written describe
-                                        rules about our own universe that are
-                                        actually "unchanging"</a>,
-                                    the majority of the scientific community can
-                                    safely assume that the fundamental laws of
-                                    physics are unchanging (hence the
-                                    "reasonably" above).
-                                    </p>
-                                    <p>
-                                    For our model of the "scientific" process,
-                                    we will consider a observable universe, a
-                                    set of existing observations, and a set of
-                                    (possibly evolving) methods for generating
-                                    new obsevations. A "knowledge set" contains
-                                    a set of patterns that have been observed to
-                                    hold (exactly, statistically, or otherwise)
-                                    in the existing observations.
+<p>Centuries of working towards their unique
+goals have led biologists and physicists to
+develop a deep intuitions as fields for what
+types of scientific questions tend to be
+fruitful, and which tend to turn up nothing
+of interest (or just be wild goose chases).
+However, the differences between their
+<!--
+<strong>Physics is the science of -->
+<!--     uncovering universal properties of -->
+<!--     the world around us.</strong> -->
+<!--
+Before you take offense to this definition, -->
+<!-- let me give you a less contentious one to -->
+<!-- help me contrast it with. -->
+<!--
+<strong>Biology is the science of -->
+<!--     characterizing exactly how life works.</strong> -->
+<!--
+For the price of being totally -->
+<!-- uncontentious, that statement is of course -->
+<!-- totally devoid of content, but here's what I -->
+<!-- mean by the distinction: --></p>
 
-                                    We define "reason" to be the set of rules by
-                                    which the elements of the "knowledge set"
-                                    are assigned "confidences". And we define
-                                    "science" to be the proess by which new
-                                    patterns in existing observations are
-                                    searched for (hypothesis development), their
-                                    consequences are enumerated (theoretical
-                                    development, i.e. mathematics), and new
-                                    measurements are chosen with which to
-                                    attempt to verify or falsify existing
-                                    hypotheses.
-                                    </p>
-                                    <p>
-                                    Is reason just really fancy statistical
-                                    pattern-matching with some kind of power-law
-                                    memory decay? Yeah probably.
-                                    </p>
-                                    <p>
-                                    In this framework, some "good" types of
-                                    science are:
-                                    </p>
+<p>A physicist will think a problem/system is
+interesting <em>if and only if</em> the
+problem admits a solution/description that
+can be broadly generalized to a larger
+system of problems. Physicists will often
+speak of a problem or solution have a kind
+of "elegance". After working with more and
+more physicists, I think that I've basically
+found that what is meant by elegance is just
+what mathematicians might call
+"universality", or the discovery that a
+complex system can be simply described by a
+simple set of rules.</p>
+
+<p>On the other hand, a biologist</p>
+
+                </section>
+                
+                <hr />
+
+                <section>
+                  <h3>When Eric Weinstein and Peter Thiel get together...</h3>
+
+<p>...you're sure to hear grandiose claims about the stagnation of science and no
+real substance to back it up. Or at least that's what you'll get if you watch
+Eric's recently released <a href="https://www.youtube.com/watch?v=nM9f0W2KD5s">
+first podcast episode</a> (I would recommend against).</p>
+
+<p>Potshots aside though, I was pretty flabbergasted by their claims that since the
+early 1970s, science as a whole had more or less frozen in time, and that
+academic progress had ground to what amounts to a complete halt. Perhaps I am
+blinded by young naiveté, but from my perspective several fields, especial
+materials science and biology have done nothing but accelerate the pace of their
+development over the past ten years. From the human genome project to CRISPr,
+it's hard to deny that advances in our ability to probe and modify our  own
+biology is advancing at an exponential rate even faster than Moore's law. (And
+this comes just as Moore's law itself is slowing down for the first time since
+the 70s, the point of time at which Peter and Eric claim the great demise of
+science began).</p>
+
+<p>So why the pessimism on their part? Well they really do harp on how progress in
+biology, (after molecular biology was "founded by physicists") never progressed
+at a pace comparable to that of our understanding of "the atom". By this, of
+course, they mean that biology is just a slow field, that they explicitly posit
+is full of "not [as] talented people" as physics.</p>
+
+<p>If you spend any non-zero amount of time at the interface of math, physics, and
+biology, this is a pattern that you'll see come up over and over again.
+Physicists (or in Thiel's case, more like self-proclaimed "intellectuals"),
+always think that with their superior creativity/intelligence/mathematical
+ability, they can swoop into biology, arguably the most populated area of modern
+research, and swiftly lay down the foundational principles at play that have
+eluded biologists for the past century.</p>
+
+<p>Invariably, some fraction of these physicists actually do start doing biological
+research, and quickly find themselves drowning in a sea of protein names,
+apparently useless acronyms for genes, and systems that require much more
+specification and have many fewer "universal" properties than they would have
+anticipated. Most run away before getting very far, but many make non-trivial
+contributions (after all, its true that typical biologists tend to prefer having
+other people do their math/modeling for them, so that they have more time to do
+experiments). That said, only a very few become "card-carrying" biologists, able
+to hold their own in a conversation with the mythical "real" biologist, whose
+encyclopaedic knowledge of historical experiments, networks of genes, and
+post-translational modifications system of interest <em>literally</em> dwarfs even the
+literature itself, due to years of hearing folkloric, unpublished results
+through the grapevine.</p>
+
+<p>What separates these "card-carrying" biologists from the physicists that run
+away? Is it as Eric and Peter would probably suggest, that they have simply
+become focused on less interesting questions? Have they simply lost their love
+or ability to do mathematics?</p>
+
+<p>I think what separates the wheat from the chaff is the realization that the
+fundamental principles of biology have long been well known, just as they have
+been for physics. Namely:</p>
+
+<ol>
+<li>
+Physics still works inside living cells. The
+laws of physics still lie at the heart of how cells, tissues and organisms work.
+Supposing God himself had giften you with a list of every relevant molecule and
+interation in a biological system, you won't meet many biologists who will claim
+that an appropriate computer simulation wouldn't be able to reproduce
+experimental results as well as can be done in fundamental physics research.
+</li>
+<li> Evolution by natural selection has, broadly speaking, been in charge
+of the development of all modern forms of life. All control systems within
+living organisms must have developed through random mutation. As a consequence,
+however, there is an absolutely massive amount of leftover and/or
+partially-functioning. You can't search for a protein based on what would be the
+optimal way for the cell to solve a problem (although biology does optimize some
+things pretty well) because natural selection need not find the best solution,
+it just finds *some* solution, then "tries" to make it better over time.
+</li>
+</ol>
+
+<p>What physicists-turned-biologists that I respect will all universally admit is
+that biology seems to follow what I like to call the "principle of most
+action": if you think you know the answer to how something is being done by a
+cell, you are probably missing 10 more key players, several dozen more backup
+systems, and a the part that you think is most important may even be just
+vestigial.</p>
+
+<p>But is this because biologists just aren't smart enough to make good models? NO!
+It's built right into the thing that's being studied. Organisms that spent
+billions of years stochastically searching DNA sequence space for genomes that
+would keep them around for evolutionary time are just going to be complex. The
+fact that biologists tend to be skeptical of the physicist's approach of
+building "simple" models to gain understanding in a "bottom-up" appraoch is well
+founded, because they have decades of experience as a field finding that the
+simplest explanation just wasn't the one that stood up to more experiments.</p>
+
+<p>If you've made it this far somehow, you might be wondering why I'm writing this?
+I guess it upsets me that so many of Eric and Peter's valid criticisms of
+academia (the fact that tenure is a pyramid scheme, the perverse incentive
+structures, etc) are mixed with these grandiose ideas about how much smarter
+they must be than people in these other fields, since those fields are "moving
+so slow".</p>
+
+<p>Hopefully someday I can come back and rewrite this into a guide: "how to be a
+good biologist for <span style="text-decoration: line-through;">dummies</span>
+physicists".  But for now I guess it will remain a rant about the pitfalls of
+pontificating about a field you know nothing about.</p>
+
+                </section>
+                
+                <hr />
+
+                <section>
+                  <h3>What makes science...science?</h3>
+
+<p>First, let's go through a few common ways
+people might answer this question.</p>
+
+<h4>Defining science by process</h4>
+
+<p>The process of science is often summarized by
+a simple loop:</p>
+
+<ol>
+    <li>Identify some property of the world
+        around us that seems to be
+        universally true.</li>
+    <li>Identify the logical consequences of
+        that property.</li>
+    <li>Test for the logical consequences,
+        and keep poking around until you're
+        either unable to falsify your theory
+        given your operating constraints or
+        until you've found some
+        inconsistency.</li>
+    <li>When an inconsistency is found,
+        return to step 1 and identify the
+        new universal property.</li>
+</ol>
+
+<p><!--
+ -->
+<!-- Of course, science often engages in some -->
+<!-- seriously meta games. It might be that -->
+<!-- instead of observing first some symmetry of -->
+<!-- the universe, we instead first observe a -->
+<!-- bunch of particles in our collider that -->
+<!-- we know mathematically would emerge in the -->
+<!-- case when there is some underlying symmetry -->
+<!-- (which may actually predict many other -->
+<!-- particles that we have not seen before). -->
+<!-- This doesn't really follow the 4-step plan I -->
+<!-- lay out above (even though it is obviously -->
+<!-- an example of extremely good science). -->
+<!-- However, it does follow the gestalt of the -->
+<!-- above, in that it involves identifying a -->
+<!-- specific set  of mathematical (i.e. -->
+<!-- axiomatizeable) "assumptions" whose logical -->
+<!-- consequences can be directly tested. -->
+<!--  --></p>
+
+<h4>Defining science as "model-driven"</h4>
+
+<p>The cornerstone of the process described
+above is what I'd call the "successful,
+falsifiable model".</p>
+
 <ul>
-    <li>Finding</li>
-    <li>Finding consequences of
-        high-confidence hypotheses that
-        directly contradict low-consequence
-        hypotheses, and removing the
-        contradictory low-confidence
-        hypothesis.</li>
-    <li>Finding consequences of
-        high-confidence hypotheses that are
-        also in our knowledge set. Patterns
-        in our knowledge set that are </li>
+    <li>
+        By <em>"model"</em>, I mean a
+        mathematical description of some
+        process that generates observations
+        of the world around us. (Where
+        mathematical simply means it is
+        unambiguous, and has unambiguous
+        logical consequences).
+    </li>
+    <li>
+        By <em>"successful"</em>, I mean
+        that we can be reasonably confident
+        that the model will remain accurate
+        upon continued testing.
+    </li>
+    <li>
+        Finally, by <em>"falsifiable"</em>,
+        I mean that every "assumption" of
+        the model can in principle be tested.
+    </li>
 </ul>
 
+<p>You might notice in particular that I've
+punted hundreds of years of philosophy of
+science into the catch-all phrase:
+"reasonably confident".  This is not because
+I don't understand the complexity involved
+in trying to specify exactly what are the
+properties that should make one "reasonably
+confident" that a model will remain accurate
+upon adding further measurements. Rather, it
+is exactly because I admit that I personally
+believe that "good" science (as currently
+practiced) is basically just a huge grab bag
+of heuristics for what kinds of models are
+useful (e.g.  those that have stood the test
+of time and repeated verification, those
+that are as simple as possible, those that
+rely on the fewest unmeasured parameters,
+etc). And while I think these are important
+for doing "good" science, in practice, they
+are ignored by working scientists as needed
+to accomplish their particular goals.</p>
 
+<p>In particular, notice that I don't include
+any notion of the "simplicity" of the model
+in my definition of science. That is in fact
+because I actively do not think that science
+is necessarily about the pursuit of the
+"simplest possible" model of a system. In
+fact, I tend to actually <a
+href="#blog.physics-vs-biology">define
+physics</a>
+as the subset of science whose sole purpose
+is to generate the most simple model of a
+system possible given existing data.</p>
 
+<h4>Defining science as leveraging logic to facilitate the search for truth</h4>
 
-                                </section>
+<p>Science turns out to be a word which is
+used to describe quite a diverse range of
+activities that are undertaken in the search
+of knowledge.</p>
 
-                                <hr />
+<ul>
+    <li>(exploratory experimentation and
+        hypothesis development)
+        Broadly, searching for underlying
+        universal properties of the world
+        around us by looking for patterns in
+        observations.</li>
+    <li>(theoretical development) Developing the logical consequences
+        of existing ("known") patterns in
+        the world around us.</li>
+    <li>(experimental verification and
+        falsification) "known" consequences
+        of "known" patterns in the world
+        around us to look for discrepancies,
+        since these will stem (in a real
+        model) from incorrect assumptions
+        that should be revised.</li>
+</ul>
 
-                                </section>
+<p><!--
+By "universal properties" above, I don't -->
+<!-- necessarily mean "fundamental" or -->
+<!-- "simplest", just "reproducible". Even -->
+<!-- without a complete understanding of -->
+<!-- epigenetics, we were able to map out how -->
+<!-- gene expression works for some easy -->
+<!-- bacterial genes early on (e.g. the -->
+<!-- <i>lac</i> operon). The principle that a -->
+<!-- transcription factor needs to be chemically -->
+<!-- modified by the environment and bind to the -->
+<!-- promoter was not a "universal" or -->
+<!-- "fundamental" description of how gene -->
+<!-- expression works, but it was the best -->
+<!-- description that we had (and agreed with all -->
+<!-- data available at the level of -->
+<!-- coarse-graining that was required by models -->
+<!-- of the time). --></p>
 
-                                <hr />
+<p>However, if we simply go around calling
+everything that seems to fit in this
+extremely broad framework by the name
+"science", we will find that it does not
+distinguish very well between well-respected
+theories and total quack science.</p>
 
-                                <section>
-                                    <h3>When Eric Weinstein and Peter Thiel get
-                                        together...</h3>
-                                    <p>...you're sure to hear grandiose claims
-                                    about the stagnation of science and no real
-                                    substance to back it up. Or at least that's
-                                    what you'll get if you watch Eric's recently
-                                    released <a
-                                    href="https://www.youtube.com/watch?v=nM9f0W2KD5s">
-                                    first podcast episode</a> (I would recommend
-                                    against).</p>
-                                    <p>Potshots aside though, I was pretty
-                                    flabbergasted by their claims that since the
-                                    early 1970s, science as a whole had more or
-                                    less frozen in time, and that academic
-                                    progress had ground to what amounts to a
-                                    complete halt. Perhaps I am blinded by young
-                                    naiveté, but from my perspective several
-                                    fields, especial materials science and
-                                    biology have done nothing but accelerate the
-                                    pace of their development over the past ten
-                                    years. From the human genome project to
-                                    CRISPr, it's hard to deny that advances in
-                                    our ability to probe and modify our  own
-                                    biology is advancing at an exponential rate
-                                    even faster than Moore's law. (And this
-                                    comes just as Moore's law itself is slowing
-                                    down for the first time since the 70s, the
-                                    point of time at which Peter and Eric claim
-                                    the great demise of science began).</p>
-                                    <p>So why the pessimism on their part? Well
-                                    they really do harp on how progress in
-                                    biology, (after molecular biology was
-                                    "founded by physicists") never progressed at
-                                    a pace comparable to that of our
-                                    understanding of "the atom". By this, of
-                                    course, they mean that biology is just a
-                                    slow field, that they explicitly posit is
-                                    full of "not [as] talented people" as
-                                    physics.</p>
-                                    <p>If you spend any non-zero amount of time
-                                    at the interface of math, physics, and
-                                    biology, this is a pattern that you'll see
-                                    come up over and over again. Physicists (or
-                                    in Thiel's case, more like self-proclaimed
-                                    "intellectuals"), always think that with
-                                    their superior
-                                    creativity/intelligence/mathematical
-                                    ability, they can swoop into biology,
-                                    arguably the most populated area of modern
-                                    research, and swiftly lay down the
-                                    foundational principles at play that have
-                                    eluded biologists for the past century.</p>
-                                    <p>Invariably, some fraction of these
-                                    physicists actually do start doing
-                                    biological research, and quickly find
-                                    themselves drowning in a sea of protein
-                                    names, apparently useless acronyms for
-                                    genes, and systems that require much more
-                                    specification and have many fewer
-                                    "universal" properties than they would have
-                                    anticipated. Most run away before getting
-                                    very far, but many make non-trivial
-                                    contributions (after all, its true that
-                                    typical biologists tend to prefer having
-                                    other people do their math/modeling for
-                                    them, so that they have more time to do
-                                    experiments). That said, only a very few
-                                    become "card-carrying" biologists, able to
-                                    hold their own in a conversation with the
-                                    mythical "real" biologist, whose
-                                    encyclopaedic knowledge of historical
-                                    experiments, networks of genes,
-                                    and post-translational modifications system
-                                    of interest *literally* dwarfs even the
-                                    literature itself, due to years of hearing
-                                    folkloric, unpublished results through the
-                                    grapevine.</p>
-                                    <p>What separates these "card-carrying"
-                                    biologists from the physicists that run
-                                    away? Is it as Eric and Peter would probably
-                                    suggest, that they have simply become
-                                    focused on less interesting questions? Have
-                                    they simply lost their love or ability to do
-                                    mathematics?</p>
-                                    <p>I think what separates the wheat from the
-                                    chaff is the realization that the
-                                    fundamental principles of biology have long
-                                    been well known, just as they have been for
-                                    physics. Namely:</p>
-                                    <ol>
-                                        <li> Physics still works inside living
-                                            cells. The laws of physics still lie
-                                            at the heart of how cells, tissues
-                                            and organisms work. Supposing God
-                                            himself had giften you with a list
-                                            of every relevant molecule and
-                                            interation in a biological system,
-                                            you won't meet many biologists who
-                                            will claim that an appropriate
-                                            computer simulation wouldn't be
-                                            able to reproduce experimental
-                                            results as well as can be done in
-                                            fundamental physics research. </li>
-                                        <li> Evolution by natural selection has,
-                                            broadly speaking, been in charge of
-                                            the development of all modern forms
-                                            of life. All control systems within
-                                            living organisms must have developed
-                                            through random mutation. As a
-                                            consequence, however, there is an
-                                            absolutely massive amount of
-                                            leftover and/or
-                                            partially-functioning. You can't
-                                            search for a protein based on what
-                                            would be the optimal way for the
-                                            cell to solve a problem (although
-                                            biology does optimize some things
-                                            pretty well) because natural
-                                            selection need not find the best
-                                            solution, it just finds *some*
-                                            solution, then "tries" to make it
-                                            better over time. </li>
-                                    </ol>
-                                    <p> What physicists-turned-biologists that I
-                                    respect will all universally admit is that
-                                    biology seems to follow what I like to call
-                                    the "principle of most action": if you think
-                                    you know the answer to how something is
-                                    being done by a cell, you are probably
-                                    missing 10 more key players, several dozen
-                                    more backup systems, and a the part that you
-                                    think is most important may even be just
-                                    vestigial.</p>
-                                    <p>But is this because biologists just
-                                    aren't smart enough to make good models? NO!
-                                    It's built right into the thing that's being
-                                    studied. Organisms that spent billions of
-                                    years stochastically searching DNA sequence
-                                    space for genomes that would keep them
-                                    around for evolutionary time are just going
-                                    to be complex. The fact that biologists tend
-                                    to be skeptical of the physicist's approach
-                                    of building "simple" models to gain
-                                    understanding in a "bottom-up" appraoch is
-                                    well founded, because they have decades of
-                                    experience as a field finding that the
-                                    simplest explanation just wasn't the one
-                                    that stood up to more experiments.</p>
-                                    <p>If you've made it this far somehow, you
-                                    might be wondering why I'm writing this? I
-                                    guess it upsets me that so many of Eric and
-                                    Peter's valid criticisms of academia (the
-                                    fact that tenure is a pyramid scheme, the
-                                    perverse incentive structures, etc) are
-                                    mixed with these grandiose ideas about how
-                                    much smarter they must be than people in
-                                    these other fields, since those fields are
-                                    "moving so slow".</p>
-                                    <p>Hopefully someday I can come back and
-                                    rewrite this into a guide: "how to be a good
-                                    biologist for <span style="text-decoration:
-                                    line-through;">dummies</span> physicists".
-                                    But for now I guess it will remain a rant
-                                    about the pitfalls of pontificating about a
-                                    field you know nothing about.</p>
-                                </section>
+<h4>Things that aren't science</h4>
 
-                            </article>
+<h5>#1: Unverifiable models</h5>
 
-                        <!-- Contact -->
-                            <article id="contact" class="panel">
-                                <header>
-                                    <h2>Contact Me</h2>
+<p>Models that can only be distinguished from
+other models via predictions that can not be
+verified in any way are not scientific.</p>
 
-                                    <span class="summary">
-                                    <a href="#writing" class="jumplink pic">
-                                        <span class="arrow left icon solid fa-chevron-left"><span>Read some of my thoughts</span></span>
-                                    </a>
-                                    </span>
-                                </header>
-                                <form action="mailto:brunobeltran+com@gmail.com" method="get">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col-6 col-12-medium">
-                                                <input type="text" name="name" placeholder="Name" />
-                                            </div>
-                                            <div class="col-6 col-12-medium">
-                                                <input type="text" name="email" placeholder="Email" />
-                                            </div>
-                                            <div class="col-12">
-                                                <input type="text" name="subject" placeholder="Subject" />
-                                            </div>
-                                            <div class="col-12">
-                                                <textarea name="body" placeholder="Message" rows="6"></textarea>
-                                            </div>
-                                            <div class="col-12">
-                                                <input type="submit" value="Send Message" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </article>
+<p>This most famously includes string theory,
+but also encompasses certain types of model
+selection that are normally relegated to
+Occam's razor as a special case. For
+example, when comparing between a model of
+gravity and a model where gravity has
+identically the same properties but is
+generated by an unmeasurable space fairy
+that orbits outside the milky way, the
+latter can be dismissed out of hand as being
+unscientific. If we replace the space fairy
+with a massive obelist in low-earth orbit,
+now the latter theory is at least scientific
+(it is testable) although it is true that
+heuristically, it makes sense to dismiss it
+out of hand (this is Occam's razor), the
+reasons we dismiss it are totally different,
+even if they seem similar.</p>
 
+<h5>#2: statistics</h5>
+
+<p>More importantly than what exact choices I
+made in my definition of "science" are the
+things that I explicitly disinclude from
+"science" using my definition above. For
+example, most of what the statistics
+community would call a "model" (note I'm
+explicitly not talking about stochastic
+versions of physics models, which are also
+often called "statistical") would not be
+included.</p>
+
+<p>When is fitting, let's say, a
+linear model, considered science? It's
+easiest to see by example. When measuring
+the velocity of something falling on the
+moon, it seems to make scientific sense to
+fit this (possibly noisy) data to a linear
+model. This is because we have hundreds of
+years of data suggesting that an
+approximately constant force of gravity will
+be the only real contributor to the motion,
+and so we expect that if we measured
+everything more accurately (decreasing the
+noise) that the linear model would continue
+to describe the data well.</p>
+
+<p>On the other hand, fitting estimates for the
+average height of all humans in each year
+with a linear function seems less
+"scientific".  Even if the data looks
+basically like a noise linear process, we do
+not expect at all that if we measured more
+and more people (or more and more years in
+the past/future) that the linear model would
+continue to perform well. For a model to be
+a "scientific model", we must <em>reasonably
+    expect</em>that the model will continue
+to work as we collect more measurements.</p>
+
+<p>Don't get me wrong, statistics is
+incredibly important to the scientific
+process.
+<!-- Fits from statistical models -->
+<!-- can even be used as inputs (assumptions) for -->
+<!-- more scientific models (if we simply show -->
+<!-- that the consequences of the scientific -->
+<!-- model we care about don't depend strongly on -->
+<!-- the exactly output of the statistical -->
+<!-- model). -->
+But a the slope of linear model fit to a
+cloud of data should not be called a
+"scientific" finding. It is (merely) a
+statistical finding.</p>
+
+<h4>Things that are science</h4>
+
+<p>Many theoreticians would probably take
+offense to my requirement that scientific
+models need to be expected to be able to
+reproduce experimental data arbitrarily
+well. After all, many models (my entire
+scientific career included) are considered
+worthwhile not because they can reproduce
+experimental measurements. For example,
+a very popular approach widely known as
+"bottom-up" modeling totally eschews
+attempting to match any data at all.
+Instead, bottom-up modeling takes small
+subset of only the most well-accepted facts
+about a complex system and tries to derive
+the consequences of only that subset of
+properties. By doing so, the modeling
+process is made infinitely more tractable,
+and the individual effects from the
+different parts of the system can often be
+teased apart much more easily. However, this
+of course comes at the cost of being able to
+reproduce data.</p>
+
+<h4>Assumption complexity: a useful classifier for "types" of science</h4>
+
+<p>I find that one of the most useful metrics
+by which to classify scientific models is
+by how detailed the assumptions need to be
+in order to produce the model's logical
+conclusions (given our current understanding
+of mathematics).</p>
+
+<p>On one extreme, you'll tend to find
+models that come out of very applied fields
+such as biology or materials science. Say
+you are interested in the science behind how
+a microbe works. It's entirely possible that
+in order to develop a model that faithfully
+reproduces every facet of such a complicated
+entity, you need to basically plug in so
+many details (assumptions) about the microbe
+in question that you begin to ask yourself
+if you're actually learning anything or just
+carefully reverse-engineering. These models
+gain their utility from being able to
+explain specific systems that affect humans
+here and now.</p>
+
+<p>On the other extreme, you'll tend to find
+models from more "theoretical" fields such
+as physics or computer science.
+Practitioners of these fields will tend to
+specifically be interested in what logical
+conclusions can be drawn from small sets of
+assumptions. For example, a physicist might
+ask what assumptions can be drawn about the
+electromagnetic force assuming a particular
+type of symmetry (locally U(1)) that it has
+been observed to obey. These models will
+contain a very small set of assumptions and
+as provide utility by being broadly
+applicable to a wide range of problems.</p>
+
+<p>Both types (and everything in between) are
+useful. Both types are science.</p>
+
+<p>Are there things which are "not"
+science? Definitely. </></p>
+
+<p><!-- first version --></p>
+
+<p>Any attempts to build a falsifiable model
+that describes observations about the world
+around us is science, as is the testing of
+such a model, as is the exploration of
+potentially unexplored types of measurements
+about the world with the purpose of building
+a model. At least that's a tempting thing to
+say, and maybe it summarizes the most
+well-accepted bits of the "philosophy of
+science", from Bacon, to Popper to
+Hempel.
+<!--
+However, I often see this definition -->
+<!-- being used as a sort of checklist, by people -->
+<!-- that want to do "science", but somehow end -->
+<!-- up doing bad stats on ugly data. --></p>
+
+<p><strong>BUT</strong>, I think that almost
+any modern scientist, if forced to, could do
+a much better job at describing what is
+meant at the turn of the 21st century by
+"good" science than this simple description.
+<!-- It's easy to do better than centuries of -->
+<!-- brilliant philosophers at describing -->
+<!-- something that you have centuries more -->
+<!-- examples of, but we're going to do it -->
+<!-- anyway. --></p>
+
+<p>First, what is so bad about the previous
+definition? When used as a checklist, it
+allows one to call a lot of things science
+that a working scientist would take great
+offense to. For example, say I measure a
+bunch of people's heights over the last few
+decades. Now I fit a line to their heights
+as a function of time. I claim that people's
+heights are growing at an average rate given
+by the parameter of my model fit. The number
+of ways in which this is "hardly" science
+are almost too numerous for any working
+scientist to point out, but it seems to
+check all of the boxes! There's a model
+(albeit an unmotivated, oversimplied,
+seemingly arbitrary one). It's falsifiable
+(more measurements, or maybe measurements in
+the future or past could show that this
+trend no longer holds or never held at all).
+My measurements might have been the first of
+their kind, I might have predicted height
+would increase on average over time <i>a
+priori</i>, and still no scientist worth
+their salt would call what I did science.
+Maybe if confronted with a definition of
+science like the one above, they would cave
+and just mutter that it's not "good" science
+in any case. Many of the less policitally
+correct...physicists...in the room would
+even be likely to mutter that "this might
+pass for real work in the social sciences,
+but not in [my] department."</p>
+
+<p>Now I don't agree with my colleagues that
+think that social sciences are "lesser" than
+the "hard" sciences, but the things they are
+recoiling at stem from a shared
+understanding of what types of science are
+useful, what types of scientific questions
+tend to be fruitful, and what types of
+approaches tend to most often lead to bogus
+results. The above example really does go
+against dozens of unspoken "rules" about
+what is allowed to be called science within
+the community. They recoil because such a
+seemingly useless piece of work flows
+directly against the zeitgeist of early
+21st century science, and this zeitgeist
+exists for a reason.</p>
+
+<p>Well, the obvious follow-up question is:
+can we amend our previous definition of
+science to more completely contain this
+shared understanding of what constitutes
+"real" science, as opposed to things that
+simply masquerade as scientific? Of course,
+as someone whose graduate "schooling" was
+largely <a href="#blog.physics-vs-biology">
+guided by physicists</a>, it is my solemn
+duty to believe that not only can I
+summarize this complex set of rules, but
+that I can do so in a manner that distills
+them into a much simpler set of underlying
+principles that should drive how everybody
+does science.</p>
+
+<p>Jokes aside, dozens of much smarter
+people than me have tried this same exercise
+over the centuries since humans have left
+behind writings about science. However, like
+a middle schooler solving algebraic
+equations that only specialized
+mathematicians would have been acquainted
+with in ancient times, I have the advantage
+of modernity: everything is much easier in
+hindsight.</p>
+
+<p>In order to better define what science is,
+we're going to sketch out a model for how an
+abstract (set of) agent(s) might go about
+discovering things about the world around
+themselves. I don't intend to provide a
+rigorous definition or exmaple of such a
+model, but merely to point out the types of
+strategies that might emerge, so that I can
+more precisely specify which of these I
+would call "science".</p>
+
+<p>So if you want a model describing a set of
+agents trying to discover the universe
+around them, you need to specify something
+about the universe that you're talking
+about. And if you want to say things about
+how universally applicable their strategy
+is, you need to in fact describe the sets of
+universes over which you want to gauge their
+potential for success.</p>
+
+<p>This may seem like a silly proposition, but
+I'd argue that we can quickly list off
+various properties of universes that are
+necessary for the question we're asking to
+even make sense in the first place.</p>
+
+<ul>
+    <li>The universe better be complex
+        enough that it can support (as in it
+        can contain) agents that can ask
+        questions about the universe.</li>
+    <li>On the time scales on which these
+        agents ask their question, the
+        universe better have at least
+        reasonably constant underlying
+        rules. </li>
+</ul>
+
+<p>The complexity lower-bound means that the
+universes we're talking about have to at
+least admit turing-complete machines.
+The other property is mostly just to
+simplify the questions that we're asking.
+And while there are
+<a href="https://en.wikipedia.org/wiki/Time-variation_of_fundamental_constants">
+    valid reasons to ask if the laws of
+    physics as-currently-written describe
+    rules about our own universe that are
+    actually "unchanging"</a>,
+the majority of the scientific community can
+safely assume that the fundamental laws of
+physics are unchanging (hence the
+"reasonably" above).</p>
+
+<p>For our model of the "scientific" process,
+we will consider a observable universe, a
+set of existing observations, and a set of
+(possibly evolving) methods for generating
+new obsevations. A "knowledge set" contains
+a set of patterns that have been observed to
+hold (exactly, statistically, or otherwise)
+in the existing observations.</p>
+
+<p>We define "reason" to be the set of rules by
+which the elements of the "knowledge set"
+are assigned "confidences". And we define
+"science" to be the proess by which new
+patterns in existing observations are
+searched for (hypothesis development), their
+consequences are enumerated (theoretical
+development, i.e. mathematics), and new
+measurements are chosen with which to
+attempt to verify or falsify existing
+hypotheses.</p>
+
+<p>Is reason just really fancy statistical
+pattern-matching with some kind of power-law
+memory decay? Yeah probably.</p>
+
+<p>In this framework, some "good" types of
+science are:</p>
+
+<ul>
+<li>Finding</li>
+<li>Finding consequences of
+high-confidence hypotheses that
+directly contradict low-consequence
+hypotheses, and removing the
+contradictory low-confidence
+hypothesis.</li>
+<li>Finding consequences of
+high-confidence hypotheses that are
+also in our knowledge set. Patterns
+in our knowledge set that are </li>
+</ul>
+
+                </section>
+                
+
+              </article>
+
+            <!-- Contact -->
+              <article id="contact" class="panel">
+                <header>
+                  <h2>Contact Me</h2>
+                  <span class="nav">
+                  <a href="#writing" class="jumplink pic">
+                    <span class="arrow left icon solid fa-chevron-left"><span>Read some of my thoughts</span></span></a>
+                  </span>
+                </header>
+                <form action="mailto:brunobeltran+com@gmail.com" method="get">
+                  <div>
+                    <div class="row">
+                      <div class="col-6 col-12-medium">
+                        <input type="text" name="name" placeholder="Name" />
+                      </div>
+                      <div class="col-6 col-12-medium">
+                        <input type="text" name="email" placeholder="Email" />
+                      </div>
+                      <div class="col-12">
+                        <input type="text" name="subject" placeholder="Subject" />
+                      </div>
+                      <div class="col-12">
+                        <textarea name="body" placeholder="Message" rows="6"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <input type="submit" value="Send Message" />
+                      </div>
                     </div>
+                  </div>
+                </form>
+              </article>
 
-                <!-- Footer -->
-                    <div id="footer">
-                        <ul class="copyright">
-                            <li>&copy; Bruno Beltran.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                        </ul>
-                    </div>
+          </div>
 
-            </div>
+        <!-- Footer -->
+          <div id="footer">
+            <ul class="copyright">
+              <li>&copy; Bruno Beltran.</li><li>Design inspired by: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </div>
 
-        <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/browser.min.js"></script>
-            <script src="assets/js/breakpoints.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
+      </div>
 
-    </body>
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
 </html>
