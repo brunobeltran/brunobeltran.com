@@ -1,0 +1,9 @@
+Nucleosome spacing heterogeneity drives chromatin elasticity
+
+images/research-nuc-chain-poster.png
+
+https://www.biorxiv.org/content/10.1101/708966v1
+
+<p>It is now understood that chromatin's structure in the nucleus is more like disorganized "beads-on-a-spring" than the "30nm fiber" historically seen by electron microscopy. We analytically compute the Greens function for a diffusion in SO(3) subordinated to a CTRW (i.e. a wormlike chain with random, rigid kinks). This analytical models demonstrates that heterogeneity in nucleosome spacing drives structural disorder, and that the bulk properties of chromatin can be modulated by repositioning nucleosomes. More details available in the <a href="https://www.biorxiv.org/content/10.1101/708966v1">paper.</a></p>
+
+files/poster-nuc-chain.pdf

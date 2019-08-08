@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<!--
+    Astral by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!--
+    Edited by Bruno Beltran for personal use
+    brunobeltran.com | brunobeltran0 AT gmail.com
+    Free for personal and commercial use under the CCA 3.0 license.
+-->
+<html>
+  <head>
+    <title>Bruno Beltran | Personal Site</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Favicon links -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- Configuration for saving to homescreen as bookmark -->
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+
+    <!-- Wrapper-->
+      <div id="wrapper">
+
+        <!-- Nav -->
+          <nav id="nav">
+            <a href="#" class="icon solid fa-home"><span>Home</span></a>
+            <a href="#code" class="icon solid fa-code"><span>Code</span></a>
+            <a href="#science" class="icon solid fa-flask"><span>Science</span></a>
+            <a href="#writing" class="icon solid fa-folder"><span>Writing</span></a>
+            <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+          </nav>
+
+        <!-- Main -->
+          <div id="main">
+
+            <!-- Me -->
+              <article id="home" class="panel intro">
+                <header>
+                  <h1>Bruno Beltran</h1>
+                  <p>Mathematician, Biophysicist, Programmer</p>
+                </header>
+                <a href="#code" class="jumplink pic">
+                  <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+                  <img src="images/me.png" alt="" />
+                </a>
+              </article>
+
+            <!-- Code -->
+              <article id="code" class="panel">
+                <header>
+                  <h2>Code</h2>
+                  {{ page_summary['code'] }}
+                  <span class="nav">
+                    <a href="#home" class="jumplink pic">
+                      <span class="arrow left icon solid fa-chevron-left"><span>Go back to home page</span></span>
+                    </a>
+                    <a href="#science" class="jumplink pic">
+                      <span class="arrow right icon solid fa-chevron-right"><span>See my scientifit work</span></span>
+                    </a>
+                  </span>
+                </header>
+                <section>
+                  <div class="row">
+<!-- col-n(-size) makes a column that takes up n/12'ths of the row. -size can be -->
+<!-- -small, -medium, -large, -xlarge (or none for default). these correspond to -->
+<!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
+                    {% for project in coding_projects %}
+                    <div class="col-4 col-6-medium col-12-small">
+                      <h4>{{ project.title }}</h4>
+                      <a href="{{ project.url }}">
+                        <img class="image fit" src="{{ project.image }}"
+                        alt="Image representing {{ project.title }}.">
+                      </a>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </section>
+              </article>
+
+            <!-- Science -->
+              <article id="science" class="panel">
+                <header>
+                  <h2>Science</h2>
+                  {{ page_summary['science'] }}
+                  <span class="nav">
+                    <a href="#code" class="jumplink pic">
+                      <span class="arrow left icon solid fa-chevron-left"><span>See my work</span></span>
+                    </a>
+                    <a href="#writing" class="jumplink pic">
+                      <span class="arrow right icon solid fa-chevron-right"><span>Read some of my thoughts</span></span>
+                    </a>
+                  </span>
+                </header>
+
+                <section>
+                  {% for project in science_projects %}
+                  <hr />
+                  <div class="row">
+<!-- col-n(-size) makes a column that takes up n/12'ths of the row. -size can be -->
+<!-- -small, -medium, -large, -xlarge (or none for default). these correspond to -->
+<!-- max-width of 736px, 980px, 1280px, 1680px, respectively. -->
+                    <div class="col-12">
+                      {% if project.url %}
+                      <a href="{{ project.url }}">
+                      {% endif %}
+                      <h3>{{ project.title }}</h3>
+                      {% if project.url %}
+                      </a>
+                      {% endif %}
+                    </div>
+                    <div class="col-4 col-8-small">
+                      {% if project.full_size_image %}
+                      <p>(click to see full size)</p>
+                      <a href="{{ project.full_size_image }}">
+                      {% endif %}
+                      <img class="image fit" src="{{ project.image }}"
+                      alt="Image representing {{ project.title }}">
+                      {% if project.full_size_image %}
+                      </a>
+                      {% endif %}
+                    </div>
+                    <div class="col-8 col-12-small">
+                      {{ project.description }}
+                    </div>
+                  </div>
+                  {% endfor %}
+                </section>
+              </article>
+
+            <!-- Writing -->
+              <article id="writing" class="panel">
+                <header>
+                  <h2>Musings</h2>
+                  {{ page_summary['writing'] }}
+                  <span class="nav">
+                    <a href="#science" class="jumplink pic">
+                      <span class="arrow left icon solid fa-chevron-left"><span>See my scientifit work</span></span>
+                    <a href="#contact" class="jumplink pic">
+                      <span class="arrow right icon solid fa-chevron-right"><span>Go to my contact information</span></span>
+                    </a>
+                  </span>
+                </header>
+
+                {% for post in blog_posts %}
+                <hr />
+
+                <section>
+                  {{ post }}
+                </section>
+                {% endfor %}
+
+              </article>
+
+            <!-- Contact -->
+              <article id="contact" class="panel">
+                <header>
+                  <h2>Contact Me</h2>
+                  <span class="nav">
+                  <a href="#writing" class="jumplink pic">
+                    <span class="arrow left icon solid fa-chevron-left"><span>Read some of my thoughts</span></span></a>
+                  </span>
+                </header>
+                <form action="mailto:brunobeltran+com@gmail.com" method="get">
+                  <div>
+                    <div class="row">
+                      <div class="col-6 col-12-medium">
+                        <input type="text" name="name" placeholder="Name" />
+                      </div>
+                      <div class="col-6 col-12-medium">
+                        <input type="text" name="email" placeholder="Email" />
+                      </div>
+                      <div class="col-12">
+                        <input type="text" name="subject" placeholder="Subject" />
+                      </div>
+                      <div class="col-12">
+                        <textarea name="body" placeholder="Message" rows="6"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <input type="submit" value="Send Message" />
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </article>
+
+          </div>
+
+        <!-- Footer -->
+          <div id="footer">
+            <ul class="copyright">
+              <li>&copy; Bruno Beltran.</li><li>Design inspired by: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </div>
+
+      </div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
+</html>

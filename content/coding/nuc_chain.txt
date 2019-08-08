@@ -1,0 +1,5 @@
+Nucleosome Chain Simulation and Theory
+
+./images/nuc-chain-diagram.png
+
+https://github.com/brunobeltran/nuc_chain

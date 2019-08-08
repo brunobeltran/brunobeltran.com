@@ -2140,7 +2140,7 @@ input, select, textarea {
 
                 }
 
-            #main > .panel .summary .arrow {
+            #main > .panel .nav .arrow {
                 display: block;
                 position: fixed;
                 right: 0;
@@ -2160,30 +2160,30 @@ input, select, textarea {
                 -ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
                 transition: width .15s ease-in-out, padding-right .15s ease-in-out;
             }
-                #main > .panel .summary .arrow.left {
+                #main > .panel .nav .arrow.left {
                     left: 0;
                 }
 
-                #main > .panel .summary .arrow:before {
+                #main > .panel .nav .arrow:before {
                     position: relative;
                     padding-right: 0;
                     top: 0.125em;
                 }
 
-                    #main > .panel .summary .arrow.left:before {
+                    #main > .panel .nav .arrow.left:before {
                         padding-left: 0;
                     }
 
-                #main > .panel .summary .arrow span {
+                #main > .panel .nav .arrow span {
                     display: block;
                     text-indent: -9999px;
                 }
 
-            #main > .panel .summary:hover .arrow {
+            #main > .panel .nav:hover .arrow {
                 width: 3em;
                 padding-right: 0.25em;
             }
-                #main > .panel .summary:hover .arrow.left {
+                #main > .panel .nav:hover .arrow.left {
                     padding-left: 0.025em;
                 }
 

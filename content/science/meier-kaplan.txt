@@ -1,0 +1,7 @@
+Beyond Meier-Kaplan: a statistical correction required when analyzing "lifetimes" in a finite observation window
+
+images/research-waiting-times.svg
+
+https://multi-locus-analysis.readthedocs.io/en/latest/finite_window.html
+
+Historically, the Meier-Kaplan correction has been used whenever an experiment measure "lifetimes" that are "right-censored" (meaning you stop observing before the event you're waiting for happens). However, not all right-censored waiting times are correctly treated by the Meier-Kaplan approach. We have developed a generalized framework for easily classifying right-censored waiting times, and a simple, fast algorithm for generating correct survival curves (or histograms) of real measured lifetimes.

@@ -1,0 +1,7 @@
+A molecular heat engine for segregating and partitioning bacterial chromosomes
+
+images/research-parabs.png
+
+https://elifesciences.org/articles/02758
+
+<p>A coarse-grained model of the ParABS plasmid partitioning system shows that <em>Caulobacter crescentus</em> can use it as a heat engine to drive segregation of the new copy of its chromosome before division. The general "burned-bridge" type heat-engine that we describe has <a href="https://www.pnas.org/content/pnas/113/46/E7268.full.pdf">now been shown</a> to also drive the canonical plasmid-partitioning behavior of ParABS in <em>E. coli</em>.</p>
