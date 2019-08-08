@@ -55,33 +55,27 @@ I think what separates the wheat from the chaff is the realization that the
 fundamental principles of biology have long been well known, just as they have
 been for physics. Namely:
 
-<ol>
-<li>
-Physics still works inside living cells. The
-laws of physics still lie at the heart of how cells, tissues and organisms work.
-Supposing God himself had gifted you with a list of every relevant molecule and
-interation in a biological system, you won't meet many biologists who will claim
-that an appropriate computer simulation wouldn't be able to reproduce
-experimental results as well as can be done in fundamental physics research.
-</li>
-<li>
-Evolution by natural selection has, broadly speaking, been in charge of the
-development of all modern forms of life. Therefore, all control systems within
-living organisms must have developed through random mutation. As a consequence,
-there are an absolutely massive number of leftover and/or partially-functioning
-systems in any given organism. You can't search for a protein by knowing what
-the optimal way for the cell to solve a problem would be (although biology does
-optimize some things pretty well) because natural selection need not find the
-best solution, it just finds *some* solution, then "tries" to make it better
-over time.
-</li>
-</ol>
+1. Physics still works inside living cells. The laws of physics still lie at the
+   heart of how cells, tissues and organisms work.  Supposing God himself had
+   gifted you with a list of every relevant molecule and interaction in a
+   biological system, you won't meet many biologists who will claim that an
+   appropriate computer simulation wouldn't be able to reproduce experimental
+   results as well as can be done in fundamental physics research.
+2. Evolution by natural selection has, broadly speaking, been in charge of the
+   development of all modern forms of life. Therefore, all control systems
+   within living organisms must have developed through random mutation. As a
+   consequence, there are an absolutely massive number of leftover and/or
+   partially-functioning systems in any given organism. You can't search for a
+   protein by knowing what the optimal way for the cell to solve a problem would
+   be (although biology does optimize some things pretty well) because natural
+   selection need not find the best solution, it just finds *some* solution,
+   then "tries" to make it better over time.
 
 What the physicists-turned-biologists that I respect will all universally admit
 is that biology seems to follow what I like to call the "principle of most
 action": if you think you know the answer to how something is being done by a
 cell, you are probably missing 10 more key players, several dozen more backup
-systems, and a the part that you think is most important may even be just
+systems, and the part that you think is most important may even be just
 vestigial.
 
 Is this status quo (that most biological "models" are doomed to fail) just a
