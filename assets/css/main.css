@@ -1549,6 +1549,19 @@ input, select, textarea {
             color: #aaa;
         }
 
+        header > p > a {
+            margin: 0.5em 0 0 0;
+            color: #444;
+            -moz-transition: color 0.25s ease-in-out;
+            -webkit-transition: color 0.25s ease-in-out;
+            -ms-transition: color 0.25s ease-in-out;
+            transition: color 0.25s ease-in-out;
+        }
+
+        header > p > a:hover {
+            color: #aaa;
+        }
+
         @media screen and (max-width: 736px) {
 
             header {
@@ -1562,6 +1575,17 @@ input, select, textarea {
     .image {
         display: inline-block;
     }
+
+        a > .image {
+            -moz-transition: padding 0.25s ease-in-out;
+            -webkit-transition: padding 0.25s ease-in-out;
+            -ms-transition: padding 0.25s ease-in-out;
+            transition: padding 0.25s ease-in-out;
+        }
+
+        a > .image:hover {
+            padding: 0.5em;
+        }
 
         .image img {
             display: block;
