@@ -98,8 +98,6 @@ for doing "good" science, in practice, they
 are ignored by working scientists as needed
 to accomplish their particular goals.
 
-
-
 In particular, notice that I don't include
 any notion of the "simplicity" of the model
 in my definition of science. That is in fact
@@ -155,7 +153,6 @@ By "universal properties" above, I don't -->
 <!-- data available at the level of -->
 <!-- coarse-graining that was required by models -->
 <!-- of the time). -->
-
 
 However, if we simply go around calling
 everything that seems to fit in this
