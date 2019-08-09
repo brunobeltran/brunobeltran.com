@@ -224,6 +224,7 @@ of what science is.
 #### Classifying science by goals
 
 The goals of people doing science vary wildly:
+
 1. Searching for trends
     + All exploratory research goes here, whether experimental or computational
     + Identifying a trend in observations is a necessary first step to
@@ -379,8 +380,6 @@ Here are some of the most well-known ones
 5. (Hume's wisdom) Just because an invariant is well-established does not mean
    it should not be challenged.
     + But maybe it should be challenged less often.
-
-Fin
 
 ### So what?
 
