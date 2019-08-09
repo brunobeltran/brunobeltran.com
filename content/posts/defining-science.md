@@ -2,30 +2,79 @@
 
 And why? [Recent polls show](https://www.pewresearch.org/science/2019/08/02/trust-and-mistrust-in-americans-views-of-scientific-experts/)
 that scientists are largely still trusted by the American public. However, dive
-into conversation with anyone in the "mistrust" camp, and you'll quickly see
+into conversation with anyone in the "mistrusts science" camp, and you'll quickly see
 that the internet age has tragically (ironically) led to an erosion of trust in
 science that would have been unfathomable to the generation that welcomed the
 atomic age.
 
-While this eroded trust has serious consequences societal consequences, very
+While this eroded trust has serious societal consequences, very
 rational people can be found at all points along the spectrum of trusting
 science, suggesting that some of the mistrust should be taken seriously, as
-legitimate complaints about the scientific community.
+a legitimate complaint about the scientific community.
 
 Scientists are not perfect creatures, and "bad" or "preliminary" scientific
-results (such as animal trials of cancer drugs) are often sold to the public
-under the same umbrella of "science" that we use to talk about well established
-theory (such as Einstein's relativity). It is not surprising, then, that the
-general public would develop frustration; it would be hard to not feel like
-someone is trying to use the label of "science" to sell you dubious results.
+results (such as whether or not you should eat eggs, or the "success" of the
+latest animal trial of some experimental cancer drugs) are often sold to the
+public under the same umbrella of "science" that we use to talk about well
+established theory (such as Einstein's relativity). It is not surprising, then,
+that the general public would develop frustration; it's sometimes hard to not
+feel like someone is trying to use the label of "science" to sell you dubious
+results.
 
-[Many](https://journals.sagepub.com/doi/abs/10.1177/0093650214534967)
+In order to combat this problem,
+[many](https://journals.sagepub.com/doi/abs/10.1177/0093650214534967)
 [different](https://www.pnas.org/content/111/Supplement_4/13664)
 [people](https://royalsocietypublishing.org/doi/10.1098/rsos.181870) have
-written about the need to communicate uncertainty in science effectively, but
-humans are famously awful at understanding uncertainty.
+written about the need to more carefully and explicitly communicate uncertainty
+in scientific results. Unfortunately, we humans are famously awful at
+understanding uncertainty. I'd go even further and say that the more we couch
+uncertainty in the formal language of statistics recommended by the above
+papers, the less likely the general public is to put in the effort to understand
+it.
 
-We need a way of
+What do I propose then? I think scientists need to collectively admit that we're
+not one monolithic discipline, and that we are not all to be trusted equally!
+You don't need to make a statistical statement to understand that building a
+laser trap to test predictions about entangling electrons is different *in kind*
+than measuring IQ and trying to make predictions about people's behavior (even
+though the error bars might appear to be of similar size!). Our intuition that
+these predictions have different levels of trustworthiness doesn't represent
+different levels of uncertainty, it represents an understanding that these are
+totally different types of activities.
+
+And the dividing line is not between the social and "hard" sciences either!  The
+hard sciences are chock full of purely statistical studies, such as GWAS
+studies that map out every gene that correlates with this or that disease. While
+genetics is a "hard" science, these results are not going to be as robust as
+a double-blind, longitudinal study on the effects of various evidence-based
+interventions designed to, for example, help traumatized children self-regulate
+(a "properly" scientific investigation).
+
+<!--
+Some might argue that some of this has to do with the inherent noisiness in
+different systems (humans vs genes vs atoms exhibit very different levels of
+regularity in the observables that we typically use to measure them). However,
+it's not just the *system* noise that's important to keep in mind, it's the
+*model* noise. How large is the space of models that agrees with all my
+observations up until today? How large is the space of the predictions of all of
+those models?
+
+That type of question is typically hard to answer, and
+-->
+
+The scientific community
+already internally uses various colloquialisms to classify different *types* of
+scientific inquiry by what their "model space" looks like:
+
++ "bottom-up" vs "top-down" modeling
++ "exploratory" vs "perturbatory" experiments
++ and many more...
+
+In what follows, I hope to present an accounting of this language, along
+with recommendations on when each type of science is useful, and how much each
+type should be trusted.
+
+### Defining science
 
 You'd be hard-pressed to find a working scientist that doesn't have a personal
 answer to this question. If they don't have it penned into words, they surely
@@ -47,15 +96,18 @@ Model](https://en.wikipedia.org/wiki/Standard_Model), it always seems that both
 parties end up agreeing that everybody's approach is important (except for the
 social scientists, they never get to be in the "in" group).
 
-In this little blog-rant, I'd like to convince you that it's much more
-productive to stop trying to define what "is" science and what "isn't", and
-that it is not that hard to instead find a simple, shared language for the many
-kinds of activities that currently fall under the umbrella of "science".
+I whole-heartedly believe that this is because these conversations largely boil
+down to people trying to pitch (or defend) their particular type of science as
+being the "one true definition" of science. If people had the language to more
+easily admit that the types of activities they are doing are as different as
+night and day (often equally valuable) without having to defend them as living
+up to some arbitrary standard of "true science", I think we'd all waste a lot
+less time at conferences.
 
-#### A Model of Models
+### A Model of Models
 
-It makes the most sense to start my diatribe against people who try to "define"
-what science is with a definition of science:
+In any case, it makes the most sense to follow my diatribe against people who
+try to "define" what science is with a definition of science:
 
 + *Science is a set of strategies we use to build predictive models about the
   world around us*
@@ -81,15 +133,15 @@ examples:
     "the rate of change of the distance to the sun depends on both the speed
     around the ellipse and where on the ellipse we are".
 2. The inverse square law of gravity: a much more classically "mathematical"
-statement. Two objects $m_1$ and $m_2$ with positions $r_1$ and $r_2$ and masses
-$M_1$ and $M_2$ will interact with a force of magnitude $GM_1M_2/|r_1 - r_2|^2$.
+statement. Two objects \\(m\_1\\) and \\(m\_2\\) with positions \\(r\_1\\) and \\(r\_2\\) and masses
+\\(M\_1\\) and \\(M\_2\\) will interact with a force of magnitude \\(GM\_1M\_2/|r\_1 - r\_2|^2\\).
   + The choice of observables and mathematical objects here can be done with
     varying levels of sophistication, but as a simple case, we can take the
     observables to be the positions and velocities of any set of masses (defined
     as objects which we observe to travel as a unit when force is exerted on
     them) and the mathematical object is a set of differential equations in
-    $\mathbb{R}^3$ describing their time-evolution due to a force that acts on
-    $m_i$ as $\sum_{j\neq i} GM_iM_j(r_j - r_i)/|r_j - r_i|^3$.
+    \\(\mathbb{R}^3\\) describing their time-evolution due to a force that acts on
+    \\(m\_i\\) as \\(\sum\_{j\neq i} GM\_iM\_j(r\_j - r\_i)/|r\_j - r\_i|^3\\).
   + By virtue of being a mathematical statement (a differential equation), the
     unambiguity of the logical conclusions of this mapping are clear.
 3. Descriptive statements, e.g.: We have a sun.
@@ -108,10 +160,11 @@ root of the time elapsed.
    + In particular, I just wanted to point out that models need not be
      deterministic.
 
-By "predictive", I mean something very subtle (because I don't believe in
-"causality", more on that later, I promise I'm not crazy). For a model to be
-"predictive", it merely needs to expresses a relationship between different
-observable that we expect to *always be true*. For example:
+By "predictive", I mean something very subtle (because I don't think "causality"
+is really important to science at all, more on that below, I promise I'm not
+crazy). For a model to be "predictive", it merely needs to expresses a
+relationship between different observable that we expect to *always be true*.
+For example:
 
 1. Kepler's "Law of Orbits": once we determine two points on the ellipse, we can
    predict what all of the values that are observable ("distances from the sun")
@@ -119,21 +172,25 @@ observable that we expect to *always be true*. For example:
 2. Newtonian gravity: this is a parametric model, meaning it requires some
    measurement of our observable to fully specify (in this case, we need to take
    enough measurements of various bodies interacting gravitationally to measure
-   $G$). After initial parameterization, the model is predictive, it can take
+   \\(G\\)). After initial parameterization, the model is predictive, it can take
    any set of measured velocities and positions and (in theory) predict the
    positions and velocities of the masses for all of time.
-   + **NOTICE**: I did not say "all time future time". We can just as well
+   + **NOTICE**: I did not say "all of time in the future". We can just as well
      predict what the positions should have been in the past as we can predict
-     what they were in the future. We may not be able to retroactively test this
-     type of prediction (someone would have had to measure the past ahead of
-     time, hide the values from us, then give them to us later to compare our
+     what they will be in the future. We may not be able to retroactively test
+     this type of prediction (someone would have had to measure the past ahead
+     of time, hide the values from us, then give them to us later to compare our
      predictions to), but it makes just as much sense to say that we've
-     "predicted" the past as it does to say we've "predicted" the future.
+     "predicted" the past as it does to say we've "predicted" the future.  This
+     is what I meant when I said that I don't think "causality" is important to
+     science at all. Aliens in a universe where time can be traversed forwards
+     or backwards may have an easier time than us doing science, but they would
+     be doing science just the same.
 3. Descriptive statements fail to be predictive. They do not link multiple
    observables, and so when interpreted as "models" they can only "predict"
    themselves.
-4. Diffusion of gas molecules at equilibrium: a simple parametric model like
-   Newton's laws above. The important thing to notice is that while the
+4. Diffusion of gas molecules at equilibrium: this is a simple parametric model
+   like Newton's laws above. The important thing to notice is that while the
    prediction is statistical, it is expected to hold exactly in probability
    (hence satisfying my "always true" requirement above).
 
@@ -148,18 +205,218 @@ which case the resulting prediction is called a counterfactual.
 
 #### That's not science!
 
-"But wait!", you might be screaming. "$X$ satisfies your definition, but I most
+"But wait!", you might be screaming. "\\(X\\) satisfies your definition, but I most
 definitely would not call it science!"
 
 I probably agree. But as I stated from the outset, I'm not in the business of
 defining what science is and isn't. I'm much more interested in describing the
 many things that people *call* science, so that we can have a language for
-discussing their relative merits. And if $X$ satisfies my definition, I bet
+discussing their relative merits. And if \\(X\\) satisfies my definition, I bet
 there's at least one person out there right now trying to pass it off as
 science.
 
+### Types of Science
 
-<!-- version 2 -->
+The meat and potatoes. I'll be updating these lists as people suggest new
+entries to me, hopefully allowing me to apply the scientific process to my model
+of what science is.
+
+#### Classifying science by goals
+
+The goals of people doing science vary wildly:
+1. Searching for trends
+    + All exploratory research goes here, whether experimental or computational
+    + Identifying a trend in observations is a necessary first step to
+      hypothesizing the existence of a more fundamental "natural law", and so
+      this goal is core component of modern "science".
+    + "Machine learning" can largely be thought of as the partial automation of
+      this step.
+2. Discovering and testing "invariants"
+    + A trend becomes an invariant whenever it is demonstrated to be robust
+      enough within some particular domain that there is no reasonable
+      expectation that a new experiment or replication would find it to now be
+      false within that domain.
+    + An invariant is not sometimes true, it is *always* true.
+    + For example: Newton's gravitational laws are an invariant within a
+      particular domain (sub-relativistic interactions).
+    + Establishing the correct level of confidence that a trend is in fact an
+      invariant is one of the cornerstones of modern scientific "intuition".
+    + Finding invariants is always the central goal of doing fundamental physics
+      research. I would go so far as to define "physics" to be exactly this type
+      of science (the type that searches for invariants).
+    + Each new "universality" result in mathematics leads to a new kind of
+      "invariant" that we can understand, and use to link together more and
+      different kinds of observables.
+    + When the community is collectively convinced that something is an
+      invariant, we call it a "natural law".
+    + We will describe many ways in which we search for and test invariants
+      below, but it is worth pointing out here that it is typically useful to
+      not just directly probe the trend itself, but to instead probe its logical
+      consequences (within the framework of existing, established invariants) in
+      order to more thoroughly test its validity (e.g. searching for
+      gravitational waves to "test" whether Einstein's relativity describes and
+      invariant of space-time).
+3. Classifying emergent behavior
+    + A predictive model (in the sense described above) is simply built by
+      selecting a specific set of "invariants". Once those invariants are chosen
+      as assumptions, they will often have arbitrarily complex (even
+      incomputable) logical consequences. Understanding these consequences is
+      one goal of "science", because without this understanding we never know if
+      we've discovered something "new" or something we "already knew" (i.e.
+      could have predicted with existing theory).
+    + Often when exploring emergent behavior, trends will be shown to come from
+      existing (known) invariants, and instead of being promoted to invariants
+      themselves, will be better understood as consequences of existing
+      invariants.
+    + Sometimes, even things which were previously taken to be invariants (such
+      as electricity and magnetism) will be shown to equivalently be emergent
+      behavior from a more simple invariant (in this case local U(1) symmetry).
+    + Understanding the complex interplay between the many ways that known
+      invariants and potential new (candidate) invariants interact with each
+      other to create logical consequences (predictions), allows us to construct
+      increasingly comprehensive (and comprehensible) models of the diverse
+      observations that we encounter in our every day lives.
+    + The coarse-graining of emergent behavior also allows us to make
+      robust predictions about the world around us that would typically require
+      more energy to compute than we have available, by allowing us to use
+      heuristics that come from "first-principles" (i.e. well-established
+      invariants).
+
+In every scientific study I have ever participated in has been driven by the three goals above: The exploration of trends, classification into invariants, and the logical study
+of how invariants interact to reveal novel emergent behavior.
+
+#### Classifying science by approach
+
+However, the methods and heuristics that I have learned to apply when reaching
+for each of these goals are varied and overlapping, so it's worth listing them
+independently (as opposed to trying to associate each type of "scientific
+practice" with a particular "scientific goal"):
+
+1. Deriving logical implications of well-established invariants
+    + These can be tested in order to verify the underlying assumptions
+      (invariants)
+2. Attempting to prove independence of particular sets of invariants
+    + This is the goal of those trying to axiomatize quantum mechanics
+3. Deriving logical implications of trends that are potentially invariants
+    + This is typically just called experimental design, but can be a science in
+      and of itself if the invariant set is large/complicated enough.
+    + In order to be a scientist specializing in this process, you must have the
+      mathematical sophistication *and* sufficient knowledge of your system to
+      generate sufficiently non-trivial logical implications while making sure
+      they are also testable.
+4. Exploratory experimentation
+    + Carrying out new tests to look for trends.
+    + Clever design of exploratory experiments will ensure that the observables
+      measured span the largest possible space, while intersecting with
+      previously measured observables just enough to give confidence that the
+      techniques used are working.
+5. Perturbatory experimentation
+    + This is basically the experimental version of #3. Often, it is impractical
+      to predict what the consequences of a particular set of known (or
+      proposed) invariants are, and so perturbatory experiments are used to
+      explore the space what would otherwise have been "counterfactuals".
+    + Good perturbatory experimentation is reminiscent of good unit testing. You
+      want to hit all the edge cases, see how the different variables that
+      affect the system individual work before studying how they interact, etc.
+    + Perturbatory experiments are often used to construct "phenomenological"
+      models, where no invariants are known, in order to allow us to ask
+      scientific questions at higher levels of abstraction.
+
+#### Model selection in practice
+
+Okay, so those are the goals of science and its methods, but recall that my
+initial definition of science was
+
++ *Science is a set of strategies we use to build predictive models about the
+  world around us*
+
+So largely what I've said above reduces to the statement that "predictive
+models" are just "trends" that we are confident enough to label "invariants",
+and that science is about uncovering these invariants and their consequences.
+
+But that still leaves the most important part: what are the "strategies", in the
+definition above? What are the ways in which we choose what sets of invariants
+we care about, exclude those that are impossible or trivial, and construct the
+best possible predictive model?
+
+**Heuristics**.
+
+Thousands of years of heuristics that humans have either built into them, or
+discoverd (and lost, and rediscovered) about what types of evidence should be
+considered trustworthy.
+
+Here are some of the most well-known ones
+
+1. Trivial invariants are useless unless they parametrize more complex models
+    + saying "the sun exists" is not science
+    + measuring the force pulling two massive bodies together is useless
+      *unless* it's simply as a proxy to measure a parameter in a more broadly
+      predictive model like Newton's
+2. (Occam's razor) A model that can predict more from less assumptions is
+   typically better
+    + At the end of the day, humans are supposed to understand science, so
+      simpler is better
+3. A model that cannot be differentiated from other valid models via an
+   actualizable observable is useless
+    + this is the main counter-example to point 2 above, and the main complaint
+      about e.g. string theory
+    + other examples of heuristic at play are distinguishing between, let's say,
+      a model of Newton's gravity and a model of Newton's gravity that contains
+      an unmeasurable, invisible horse in low earth orbit. While Occam's razor
+      is the more common thing to cite when discarding this kind of theory, the
+      fact that the invisible horse is unmeasurable is actually a bigger ding
+      than the added model complexity by far.
+4. (Occam's shaving cream) There exist many systems which are complicated enough
+   that a more complicated model should not be dismissed out of hand just
+   because a simple model explains some set of observations.
+    + The set of all models that can explain existing observations is always
+      important to consider. This is especially true in biological and
+      soft-matter systems, i.e. in regimes where emergent, complex behavior
+      dominates our observables.
+5. (Anti-Hume) If something has been observed to be true enough times, then we
+   should just act as if it's always true in practice, lest we be frozen in
+   inaction.
+5. (Hume's wisdom) Just because an invariant is well-established does not mean
+   it should not be challenged.
+    + But maybe it should be challenged less often.
+
+Fin
+
+### So what?
+
+So I've laid out some words that I like to use in conversation that describe the
+various goals of different activities which are all called "science"
+colloqiually (and often, by the practitioners). But I have yet to make many
+value judgements about which parts are the most important.
+
+All parts are important.
+
+I hope that by merely laying out a framework for discussion, I have managed to
+avoid too much grandiosity. The entire scientific process is important, and
+scientists at all levels should be able to say "I'm a X!" proudly, where X is
+"data scientist" (searching for trends), "bottom-up modeling specialist" (e.g.
+mathematician doing physics or basic research), "exploratory experimentalist"
+(e.g. throwing money and sequencing at medical research problems and hoping
+something sticks).
+
+What matters, from my perspective, is that the statistical results of the data
+scientist not be confused as having the same weight as fundamental results of
+e.g. an experimental biochemist.
+
+While these are both important pursuits, they are different pursuits.
+
+And if they are both called "science", then the public is right to not blindly
+trust all scientists, as different types will have different types of evidence
+for the statements that they make, not just different levels of confidence.
+
+
+<!--
+<!- - version 2 - ->
+
+Is it the case that in any universe with agents both complex and uniform enough
+to derive the existence of computability, that there must be a certain degree of
+universality (existence of fundamental natural laws) to allow these beings to
+emerge?
 
 In a sentence: science is set of strategies for learning about the world around
 us by studying the logical implications of various properties of the universe
@@ -406,7 +663,7 @@ Both types (and everything in between) are useful. Both types are science.
 
 Are there things which are "not" science? Definitely.
 
-<!-- first version -->
+<!- - first version - ->
 
 
 Any attempts to build a falsifiable model that describes observations about the
@@ -415,20 +672,20 @@ exploration of potentially unexplored types of measurements about the world with
 the purpose of building a model. At least that's a tempting thing to say, and
 maybe it summarizes the most well-accepted bits of the "philosophy of science",
 from Bacon, to Popper to Hempel.
-<!-- However, I often see this definition -->
-<!-- being used as a sort of checklist, by people -->
-<!-- that want to do "science", but somehow end -->
-<!-- up doing bad stats on ugly data. -->
+> However, I often see this definition
+> being used as a sort of checklist, by people
+> that want to do "science", but somehow end
+> up doing bad stats on ugly data.
 
 
-<strong>BUT</strong>, I think that almost any modern scientist, if forced to,
-could do a much better job at describing what is meant at the turn of the 21st
-century by "good" science than this simple description.
-<!-- It's easy to do better than centuries of -->
-<!-- brilliant philosophers at describing -->
-<!-- something that you have centuries more -->
-<!-- examples of, but we're going to do it -->
-<!-- anyway. -->
+> <strong>BUT</strong>, I think that almost any modern scientist, if forced to,
+> could do a much better job at describing what is meant at the turn of the 21st
+> century by "good" science than this simple description.
+> It's easy to do better than centuries of
+> brilliant philosophers at describing
+> something that you have centuries more
+> examples of, but we're going to do it
+> anyway.
 
 First, what is so bad about the previous definition? When used as a checklist,
 it allows one to call a lot of things science that a working scientist would
@@ -532,6 +789,6 @@ In this framework, some "good" types of science are:
   knowledge set. Patterns in our knowledge set that are
 
 
-
+-->
 
 
