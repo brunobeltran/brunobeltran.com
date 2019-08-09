@@ -2,38 +2,84 @@
 
 And why? [Recent polls show](https://www.pewresearch.org/science/2019/08/02/trust-and-mistrust-in-americans-views-of-scientific-experts/)
 that scientists are largely still trusted by the American public. However, dive
-into conversation with anyone in the "mistrusts science" camp, and you'll quickly see
-that the internet age has tragically (ironically) led to an erosion of trust in
-science that would have been unfathomable to the generation that welcomed the
-atomic age.
+into conversation with anyone in the "mistrusts science" camp, and you'll
+quickly see that the internet age has led to an erosion of trust in science that
+would have been unfathomable to the generation that welcomed the atomic age.
 
-While this eroded trust has serious societal consequences, very
-rational people can be found at all points along the spectrum of trusting
-science, suggesting that some of the mistrust should be taken seriously, as
-a legitimate complaint about the scientific community.
+While this eroded trust has serious societal consequences, I would challenge
+scientists to restrain themselves from casting aspersions simply because
+somebody answers "no" to a question like "do you, overall, trust the scientific
+process to produce reliable conclusions?" After all, even among scientists, this
+statement needs to be heavily qualified to be agreed with. Most scientists, in
+private, would admit that the scientific process is only right "eventually", or
+"most of the time" at best.
 
-Scientists are not perfect creatures, and "bad" or "preliminary" scientific
-results (such as whether or not you should eat eggs, or the "success" of the
-latest animal trial of some experimental cancer drugs) are often sold to the
-public under the same umbrella of "science" that we use to talk about well
-established theory (such as Einstein's relativity). It is not surprising, then,
-that the general public would develop frustration; it's sometimes hard to not
-feel like someone is trying to use the label of "science" to sell you dubious
-results.
+We hesitate to speak up about these nuances in public forums (or to aunt Betty on
+Facebook) because we know that any concession that science can produce bad
+results might be used as ammunition to not vaccinate children (or to justify
+all of the money spent on healing crystals).
 
-In order to combat this problem,
-[many](https://journals.sagepub.com/doi/abs/10.1177/0093650214534967)
-[different](https://www.pnas.org/content/111/Supplement_4/13664)
-[people](https://royalsocietypublishing.org/doi/10.1098/rsos.181870) have
-written about the need to more carefully and explicitly communicate uncertainty
-in scientific results. Unfortunately, we humans are famously awful at
+Instead, when people make [legitimate complaints](https://youtu.be/0Rnq1NpHdmw)
+about [headline
+whiplash](https://www.vox.com/2016/6/21/11962568/health-journalism-evidence-based-medicine),
+we tend to claim that those effects are just  due to reporting of "bad" science,
+or "preliminary" results. We attribute the public's frustration to the
+[replication crisis](https://en.wikipedia.org/wiki/Replication_crisis), or to
+bad journalism. Or maybe we complain that the public simply does not know how to judge
+their sources of information.
+
+But we rarely let ourselves admit that the process of science is
+imperfect, and that it often quite produces bad results.
+
+We admonish these people for not trusting science, and in the next breath we
+complain about how so many papers published in Nature, Science, and Cell are
+full of just-plain-wrong results or conclusions. We complain that people don't
+believe us when we say that our climate models will still have the same
+predictions tomorrow, while being fully aware that they do not have *any* of the
+resources required (nor the time) to actually verify that this is true to any
+satisfying degree.
+
+If you're a scientist right now, you might already be cringing even. Scared
+that this blog post will stray too close to dangerous waters, where my words
+might be misinterpreted by those seeking to denigrate science.
+
+In this environment, it is easy for an outsider to see science as nothing but
+another religion tyring to be sold to them. Science is the new scripture, and
+scientists the new priests. We are meant to trust what they say, and where we
+find inconsistency, we should understand that under further reflection, we would
+find that no inconsistency actually exists. Every time we blaspheme or dare
+challenge this new scripture, its priests disparage us and call us hethens, a
+blight upon society. They force reconciliation or exile. And so, people come to
+feel like they are not meant to understand science, but to simply believe it.
+
+Clearly, if this is the impression that a person has received about science,
+then there is a *fundamental problem* in how science has been communicated to
+them.
+[Many](https://journals.sagepub.com/doi/abs/10.1177/0093650214534967)
+[people](https://www.pnas.org/content/111/Supplement_4/13664)
+[have proposed](https://royalsocietypublishing.org/doi/10.1098/rsos.181870) that
+the solution is simply to more carefully and explicitly communicate uncertainty
+in scientific results.
+<!-- Unfortunately, we humans are famously awful at
 understanding uncertainty. I'd go even further and say that the more we couch
 uncertainty in the formal language of statistics recommended by the above
 papers, the less likely the general public is to put in the effort to understand
-it.
+it. -->
 
-What do I propose then? I think scientists need to collectively admit that we're
+But I think the problem runs deeper than uncertainty. It seems to me that, as a
+community, we lack a cohesive language with which to talk about different
+*kinds* of scientific results.
+<!--
+We may complain that the public is not
+sufficiently acquainted with the process of science to make the nuanced
+distinctions between, say, mechanistic results and well-established
+phenomenological results...
+
+*But if this is true, it is our fault.*
+
+So what do I propose? I think scientists need to collectively admit that we're
 not one monolithic discipline, and that we are not all to be trusted equally!
+-->
 You don't need to make a statistical statement to understand that building a
 laser trap to test predictions about entangling electrons is different *in kind*
 than measuring IQ and trying to make predictions about people's behavior (even
@@ -50,29 +96,27 @@ a double-blind, longitudinal study on the effects of various evidence-based
 interventions designed to, for example, help traumatized children self-regulate
 (a "properly" scientific investigation).
 
-<!--
-Some might argue that some of this has to do with the inherent noisiness in
-different systems (humans vs genes vs atoms exhibit very different levels of
-regularity in the observables that we typically use to measure them). However,
-it's not just the *system* noise that's important to keep in mind, it's the
-*model* noise. How large is the space of models that agrees with all my
-observations up until today? How large is the space of the predictions of all of
-those models?
-
-That type of question is typically hard to answer, and
--->
-
 The scientific community
 already internally uses various colloquialisms to classify different *types* of
 scientific inquiry by what their "model space" looks like:
 
 + "bottom-up" vs "top-down" modeling
 + "exploratory" vs "perturbatory" experiments
++ "mechanistic" vs "phenomenological" explanations
 + and many more...
 
 In what follows, I hope to present an accounting of this language, along
 with recommendations on when each type of science is useful, and how much each
 type should be trusted.
+
+I hope that with this more nuanced language, we can **fearlessly admit** that
+scientific results can be horribly, dangerously wrong, without
+jeapordizing our
+ability to speak authoritatively when it matters (climate change, vaccination,
+etc). Because what matters isn't building people's allegiance to the some new
+religion of science, it's giving them the language to understand how scientific
+results should be interpreted, so that they can make their own judgements about
+how this means they should act.
 
 ### Defining science
 
@@ -340,10 +384,10 @@ definition above? What are the ways in which we choose what sets of invariants
 we care about, exclude those that are impossible or trivial, and construct the
 best possible predictive model?
 
-**Heuristics**.
+**Its just heuristics**.
 
 Thousands of years of heuristics that humans have either built into them, or
-discoverd (and lost, and rediscovered) about what types of evidence should be
+discovered (and lost, and rediscovered) about what types of evidence should be
 considered trustworthy.
 
 Here are some of the most well-known ones
@@ -354,11 +398,11 @@ Here are some of the most well-known ones
       *unless* it's simply as a proxy to measure a parameter in a more broadly
       predictive model like Newton's
 2. (Occam's razor) A model that can predict more from less assumptions is
-   typically better
+typically better
     + At the end of the day, humans are supposed to understand science, so
       simpler is better
 3. A model that cannot be differentiated from other valid models via an
-   actualizable observable is useless
+actualizable observable is useless
     + this is the main counter-example to point 2 above, and the main complaint
       about e.g. string theory
     + other examples of heuristic at play are distinguishing between, let's say,
@@ -368,24 +412,35 @@ Here are some of the most well-known ones
       fact that the invisible horse is unmeasurable is actually a bigger ding
       than the added model complexity by far.
 4. (Occam's shaving cream) There exist many systems which are complicated enough
-   that a more complicated model should not be dismissed out of hand just
-   because a simple model explains some set of observations.
+that a more complicated model should not be dismissed out of hand just because a
+simple model explains some set of observations.
     + The set of all models that can explain existing observations is always
       important to consider. This is especially true in biological and
       soft-matter systems, i.e. in regimes where emergent, complex behavior
       dominates our observables.
 5. (Anti-Hume) If something has been observed to be true enough times, then we
-   should just act as if it's always true in practice, lest we be frozen in
-   inaction.
+should just act as if it's always true in practice, lest we be frozen in
+inaction.
 5. (Hume's wisdom) Just because an invariant is well-established does not mean
-   it should not be challenged.
+it should not be challenged.
     + But maybe it should be challenged less often.
+6. (The blight of the social sciences) Models that are proposed in systems where
+few invariants are known are less likely to stand up to the test of time.
+    + A large fraction of the complaints leveled against the social sciences by
+      the "hard sciences" boil down to this idea: that there are no Maxwell's
+      equations of human behavior.
+    + Said more formally, the less we know about a system, the larger that the
+      space of possible models can be (and concommitantly, the larger the space
+      of logically-sound predictions can be). So the less we know about a system
+      (i.e. the less we understand it mechanistically) the less we can trust
+      that a model that predicts something correctly is representing an actual
+      invariant of the system, as opposed to a coincidence or fluke.
 
 ### So what?
 
 So I've laid out some words that I like to use in conversation that describe the
 various goals of different activities which are all called "science"
-colloqiually (and often, by the practitioners). But I have yet to make many
+colloquially (and often, by the practitioners). But I have yet to make many
 value judgements about which parts are the most important.
 
 All parts are important.
