@@ -13,8 +13,10 @@ from dataclasses import dataclass
 
 blog_posts = [Path('./content/posts') / Path(p) for p in
                     # ['physics-vs-biology.md',
-                     ['defining-science.md',
-                     'weinstein-thiel.md']]
+                     ['colloquial-words-in-science.md',
+                     'defining-science.md',
+                     'weinstein-thiel.md',
+                     'trusting-science.md']]
 blog_posts = [markdown2.markdown_path(f) for f in
               blog_posts]
 
