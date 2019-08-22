@@ -22,26 +22,25 @@ well known).
 
 If you need convincing that this is the case, I've provided in what follows
 three diverse examples of the kinds of issues that arise when common language
-words are given new, "more rigorous" definitions by scientists. One from the
-[social sciences](#gender-example), one from [game
-theory](#game-theory-example), and one from [quantum
-mechanics](#quantum-example). I close with some of my thoughts about
+words are given new, "more rigorous" definitions by scientists.
+[One from the](#gender-example) social sciences, [one from](#game-theory-example) game theory, and [one from](#quantum-example) quantum
+mechanics. I close with some of my thoughts about
 [how to prevent these issues in the first place](#prevention-tips).
 
 I especially try to demonstrate with [an example from game
 theory](#game-theory-example) how trying to come up with scientific definitions
-of common words) tends to lead to incredibly persistent miscommunication, *even
+of common words tends to lead to incredibly persistent miscommunication, *even
 among other scientists in the same field*. However, to see how pernicious this
 problem can really be, we'll first examine the damage that can be done when the
 confused party is instead the general public.
 
-For non-scientist readers, hopefully this is a window that helps you see the
-ways in which common journalistic practices in "pop-science" can easily deceive
+For non-scientist readers, hopefully this is a window into one of the many ways
+in which common journalistic practices from "pop-science" can easily deceive
 you. For scientist readers, I hope to convince you that if a word is already in
 common use, and you try to give it a rigorous definition, no matter how well
-intentioned you may be, or how close that word is to capturing the colloquial
-meaning, at best you're going to cause confusion, and at worst you're going to
-piss people off.
+intentioned you may be, or how close that word is to capturing the original
+colloquial meaning, at best you're going to cause confusion, and at worst you're
+going to piss people off.
 
 <span id="gender-example">
 #### When bad marketing meets existing prejudice
@@ -74,7 +73,7 @@ An obvious example of this worst-case has unfortunately already played out with
 the word "gender". Social scientists now [uniformly use this
 word](https://en.wikipedia.org/wiki/Gender) to refer to the socially-constructed
 aspects of the ideas colloquially referred to as masculinity and femininity.
-However, before the 1950s, the word gender [was already use, and referred only
+However, before the 1950s, the word gender [was already in use, and referred only
 to grammatical
 categories](https://web.archive.org/web/20120615160110/http://www.oeb.harvard.edu/faculty/haig/Publications_files/04InexorableRise.pdf).
 In many places, for example in the southern United States (where I went to
@@ -94,6 +93,7 @@ the need to show gratitude appropriately either.
 There is no better way to sow confusion and division than to walk into somebody
 else's house and use a language
 -->
+
 There is no better way to alienate someone on a topic than to start by trying to
 convince them that a word they've been using their whole life suddenly has a new
 definition ([entire comedy
@@ -104,48 +104,60 @@ countless potential allies (especially religious people) driven away from LGBT+
 issues due to simple misunderstandings caused by well-intentioned attempts to
 change language by fiat.
 
+Had the word chosen for what we now call gender been anything else, maybe
+something with a Latin root that invokes the idea that it's socially
+constructed, or maybe something that explicitly intoned an independence from the
+concept of biological "sex", I posit that any number of needless, hateful
+internet fights about whether or not there are "only two genders" could have
+been completely avoided. And if you really think that the people crying that
+there are "only two genders" are all bigots and never just trying to argue in
+good faith that we should just use the word gender to mean "chromosome-encoded,
+biological sex",
+[you](https://www.theodysseyonline.com/how-many-genders-are-there),
+[just](https://youtu.be/4ttcOo8rK4U?t=176)
+[aren't](https://www.reddit.com/r/benshapiro/comments/9264nj/gender_vs_sex_is_ben_being_stupid_or_am_i_missing/)
+[paying](https://www.cnsnews.com/blog/michael-morris/ben-shapiro-if-you-dont-think-theres-difference-between-men-and-women-you-are)
+[attention](https://www.reddit.com/r/JordanPeterson/comments/6jkr89/sex_and_gender_do_not_vary_independently_source/).
+
+<!--
 It's easy to forget in the modern age, when the word "gender" is much more
 present in the popular consciousness, but there was a day when it was impossible
 to say that someone who refused to use this new definition of gender was
 "bigoted". The word already had a meaning, and depending on how it was initially
 presented to someone fifty years ago, they may have had various, perfectly
 non-bigoted reasons not to use it.
+-->
+
+So, clearly, the choice by sociologists as a scientific community to legitimize
+this potentially confusing terminology directly fed one of the largest sources
+of internet hatred in the early 21st century.
 
 But don't think for a second that this is something that can only happen in the
-social sciences. Non-social scientists often feel immune to this type of problem
-due to a perception that they are "rigorous" enough to not fall into these types
-of traps. But as we'll see that is far from the case.
+"soft" sciences. Non-social scientists often feel immune to this type of problem
+due to a perception that they are more "rigorous" and so cannot fall into the
+traps of creating a situation where a well-defined word is more confusing than
+it is helpful. But as we'll see soon, that is far from the case.
 
+<!--
 Nor should you get the idea that this problem cannot be avoided, after all,
 nobody has ever accidentally gone to the jewerly store at the behest of a
 mathematician asking them to study some property of
 ["rings"](https://en.wikipedia.org/wiki/Ring_(mathematics), so clearly it's
 possible to prevent prevent confusion between scientific and colloquial
 homographs
-
-<!--
-As scientists, we are free to choose any words we like to describe the
-observations we make of the world around us, and we typically rely on the
-scientific community to prevent us from using overly grandiose or otherwise
-confusing verbiage. But this is not enough. As scientists, we have a
-responsibility to communicate to the public the distinction between scientific
-claims and definitions and their colloquial and political interpretations and
-conclusions.
-
-Nobody gets upset that mathematicians call the real numbers under multiplication
-and addition a "ring", even though that word is already *very much* taken. But
-that's because you'll never hear a mathematician trying to use this definition
-in a jewelry store.
 -->
 
 *(Disclaimer: thankfully, the sociologist's definition of the word "gender"
 seems to be on track to become well-accepted within the next generation. I fully
 support the charge to normalize this word in the public mind, as whatever
 problems may have occured due to the initial pushback against this usage now
-pale in comparison to the practical need to adopt a word that, for example,
-trans and non-binary people can use to accurately describe their experiences.
+pale in comparison to the practical need to adopt a word that can be used by,
+for example, trans and non-binary people to accurately describe their
+experiences. Hopefully normalization of this word is the first step to a more
+compassionate and productive discourse on the positive and negative roles of
+both masculinity and femininity.*
 
-That said, if I could go back to 1955 and talk to [John
+*That said, if I could go back to 1955 and talk to [John
 Money](https://en.wikipedia.org/wiki/John_Money), I would plead that he choose a
 different word.)*
 
@@ -175,12 +187,14 @@ prisoner's dilemma, feel free to [skip here](#after-finite-prisoner-nash).*
 
 Suppose you're on a game show. A celebrity moderator stands between you and your
 "opponent". The rules of the game are simple: each turn, you each press one of
-two buttons. If you both press the "A" button, you both get $100,000. If you
-both press the "B" button, you each get a measly $10,000.
+two buttons. If you both press the "C" button ("C" for "cooperate"), you both
+get $100,000. If you both press the "D"  button ("D" for "defect"), you each get
+a measly $10,000.
 
-Easy enough? Except that if you betray the other person (by presses "B"
-when they press "A"), you gain $150,000 instead of $100,000! Now that's a lot of
-extra money (almost two years of a graduate student salary, if anyone's asking).
+Easy enough? Except that if you betray the other person (by presses "D"
+when they press "C"), you gain $150,000 instead of $100,000! Now that's a lot of
+extra money (almost two years of a graduate student's salary, if anyone's
+asking).
 
 ![Prisoner's dilemma grid: with the four possibilities (A,A), (A,B), (B, A) and
 (B,B) drawn out](./images/prisoners-dilemma-box.svg)
@@ -202,19 +216,19 @@ thing to do?
 
 If you've taken microeconomics or read about game theory (or are particularly
 cynical), you'll recogize that if there was only one turn, you are always
-"better off" pressing "B". You have no control over what your opponent will do,
+"better off" pressing "D". You have no control over what your opponent will do,
 but we can think about what will happen for each of their two options.
 
-Suppose your opponent presses "A". Then if you press "B", you get $50,000 more
-than if you press "A"! If they are going to press "B", then you may only get
-$10,000 for pressing "B", but it's better than the **$0** you would get for
-pressing "A". *So in either case you're strictly better off pressing "B"*.
+Suppose your opponent presses "C". Then if you press "D", you get $50,000 more
+than if you press "C"! If they are going to press "D", then you may only get
+$10,000 for pressing "D", but it's better than the **$0** you would get for
+pressing "C". *So in either case you're strictly better off pressing "D"*.
 
 This is microeconomic's favorite "unintuitive" result. Just like a statistics
 professor presenting the [birthday
 problem](https://en.wikipedia.org/wiki/Birthday_problem), a econ professor must
 typically jump through several hoops to convince the class that while they may
-not think it's "right" to defect and press "B", it is the strictly more
+not think it's "right" to defect and press "D", it is the strictly more
 "rational" decision. And so we arrive at the definition of "rationality" used in
 game theory: if there is a choice present that has a reward strictly higher
 than any other choice, regardless of what the opponent does (a strictly dominant
@@ -226,12 +240,12 @@ This may seem like a pretty good definition of the word rational. After all, why
 would a "rational" agent ever do something not in their best interest? That is,
 however, until you ask how the original game plays out if both players are
 "rational". Obviously on the last turn, the game is equivalent to the one turn
-version, so both players will choose "B". But then if the last turn of the game
+version, so both players will choose "D". But then if the last turn of the game
 is fixed, the second to last turn is also equivalent to the one-turn case, since
 the players don't have to take the last turn into consideration (they're both
 rational and know each other are rational, so they can deduce what the outcome will
 be for the last turn). So that means only the second-to-last turn matters in
-isolation, so the players also both choose "B" on the second to last turn, and
+isolation, so the players also both choose "D" on the second to last turn, and
 on the third-to-last turn, and so on and so on.
 
 This may seem like a sneaky argument, but [a rigorous version of this analysis
@@ -239,7 +253,7 @@ exists (it's called "backwards
 induction")](https://economics.mit.edu/files/4754), and it can
 be used to prove that in any finite (fixed number of turns) prisoner's dilemma,
 no matter how many turns there are, two "rational" players, for this game
-theoretic definition of "rational", will always play "B".
+theoretic definition of "rational", will always play "D".
 
 And depending on your risk tolerance, this might make some sense intuitively,
 after all, walking away with with 10\*$10,000 is a pretty sweet deal, and maybe
@@ -307,11 +321,12 @@ as an example of word misappropriation by the hard sciences, let's talk about:
 While I don't have nearly enough room in a blog post to defend such a thesis, I
 can't resist writing this, if only to piss off my philosophy of physics friends.
 
-There is an absolute boatload of human time devoted to explaining (and trying to
-solve) various problems at the "heart" of quantum mechanics, collectively known
-as the "foundations of quantum mechanics". If you've heard of the many-worlds
-interpretation, the copenhagen interpretation, the measurement problem, or other
-"paradoxes" of quantum mechanics, you've been exposed to these ideas before.
+There has been an absolute boatload of human time devoted to explaining (and
+trying to solve) various problems at the "heart" of quantum mechanics,
+collectively known as the "foundations of quantum mechanics". If you've heard of
+the many-worlds interpretation, the copenhagen interpretation, the measurement
+problem, or other "paradoxes" of quantum mechanics, you've been exposed to these
+ideas before.
 
 I think that the whole business of trying to "solve" these paradoxes is just
 another waste of time that is distracted perfectly good minds from attacking

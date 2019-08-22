@@ -178,8 +178,8 @@
                 {% for post in blog_posts %}
                 <hr />
 
-                <section>
-                  {{ post }}
+                <section id="{{ post.file_name }}">
+                  {{ post.text }}
                 </section>
                 {% endfor %}
 

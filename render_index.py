@@ -11,17 +11,23 @@ from jinja2 import FileSystemLoader, Environment, select_autoescape
 from pathlib import Path
 from dataclasses import dataclass
 
+page_summary = {f.stem: f.read_text() for f in
+                Path('./content/summaries').iterdir()}
+
+@dataclass
+class Post:
+    file_name: str
+    text: str
+
 blog_posts = [Path('./content/posts') / Path(p) for p in
                     # ['physics-vs-biology.md',
                      ['colloquial-words-in-science.md',
                      'defining-science.md',
                      'weinstein-thiel.md',
                      'trusting-science.md']]
-blog_posts = [markdown2.markdown_path(f) for f in
-              blog_posts]
+blog_posts = [Post(file_name=f.stem, text=markdown2.markdown_path(f))
+              for f in blog_posts]
 
-page_summary = {f.stem: f.read_text() for f in
-                Path('./content/summaries').iterdir()}
 
 @dataclass
 class Project:
